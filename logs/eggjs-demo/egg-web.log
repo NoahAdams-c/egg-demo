@@ -1,0 +1,1755 @@
+2019-10-30 00:00:01,012 INFO 5442 [egg-logrotator] app logger reload: got log-reload message
+2019-10-30 10:04:03,632 INFO 1917 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:04:03,652 INFO 1917 [egg-multipart] stream mode enable
+2019-10-30 10:04:03,831 INFO 1917 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:04:03,832 INFO 1917 [egg-security] use methodnoallow middleware
+2019-10-30 10:04:03,833 INFO 1917 [egg-security] use noopen middleware
+2019-10-30 10:04:03,833 INFO 1917 [egg-security] use nosniff middleware
+2019-10-30 10:04:03,834 INFO 1917 [egg-security] use xssProtection middleware
+2019-10-30 10:04:03,834 INFO 1917 [egg-security] use xframe middleware
+2019-10-30 10:04:03,835 INFO 1917 [egg-security] use dta middleware
+2019-10-30 10:04:03,835 INFO 1917 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:04:03,840 INFO 1917 [egg:core] dump config after load, 3ms
+2019-10-30 10:04:03,860 INFO 1917 [egg-watcher:application] watcher start success
+2019-10-30 10:04:03,891 INFO 1917 [egg:core] dump config after ready, 9ms
+2019-10-30 10:14:02,954 INFO 3365 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:14:02,998 INFO 3365 [egg-multipart] stream mode enable
+2019-10-30 10:14:03,285 INFO 3365 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:14:03,290 INFO 3365 [egg-security] use methodnoallow middleware
+2019-10-30 10:14:03,292 INFO 3365 [egg-security] use noopen middleware
+2019-10-30 10:14:03,294 INFO 3365 [egg-security] use nosniff middleware
+2019-10-30 10:14:03,294 INFO 3365 [egg-security] use xssProtection middleware
+2019-10-30 10:14:03,294 INFO 3365 [egg-security] use xframe middleware
+2019-10-30 10:14:03,295 INFO 3365 [egg-security] use dta middleware
+2019-10-30 10:14:03,295 INFO 3365 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:14:03,301 INFO 3365 [egg:core] dump config after load, 4ms
+2019-10-30 10:14:03,339 INFO 3365 [egg-watcher:application] watcher start success
+2019-10-30 10:14:03,368 INFO 3365 [egg:core] dump config after ready, 4ms
+2019-10-30 10:14:43,647 INFO 3393 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:14:43,670 INFO 3393 [egg-multipart] stream mode enable
+2019-10-30 10:14:43,930 INFO 3393 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:14:43,932 INFO 3393 [egg-security] use methodnoallow middleware
+2019-10-30 10:14:43,932 INFO 3393 [egg-security] use noopen middleware
+2019-10-30 10:14:43,933 INFO 3393 [egg-security] use nosniff middleware
+2019-10-30 10:14:43,933 INFO 3393 [egg-security] use xssProtection middleware
+2019-10-30 10:14:43,933 INFO 3393 [egg-security] use xframe middleware
+2019-10-30 10:14:43,933 INFO 3393 [egg-security] use dta middleware
+2019-10-30 10:14:43,933 INFO 3393 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:14:43,946 INFO 3393 [egg:core] dump config after load, 10ms
+2019-10-30 10:14:43,983 INFO 3393 [egg-watcher:application] watcher start success
+2019-10-30 10:14:44,029 INFO 3393 [egg:core] dump config after ready, 11ms
+2019-10-30 10:14:44,632 INFO 3405 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:14:44,653 INFO 3405 [egg-multipart] stream mode enable
+2019-10-30 10:14:44,817 INFO 3405 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:14:44,820 INFO 3405 [egg-security] use methodnoallow middleware
+2019-10-30 10:14:44,820 INFO 3405 [egg-security] use noopen middleware
+2019-10-30 10:14:44,820 INFO 3405 [egg-security] use nosniff middleware
+2019-10-30 10:14:44,820 INFO 3405 [egg-security] use xssProtection middleware
+2019-10-30 10:14:44,820 INFO 3405 [egg-security] use xframe middleware
+2019-10-30 10:14:44,821 INFO 3405 [egg-security] use dta middleware
+2019-10-30 10:14:44,821 INFO 3405 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:14:44,826 INFO 3405 [egg:core] dump config after load, 3ms
+2019-10-30 10:14:44,847 INFO 3405 [egg-watcher:application] watcher start success
+2019-10-30 10:14:44,867 INFO 3405 [egg:core] dump config after ready, 3ms
+2019-10-30 10:14:54,053 INFO 3426 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:14:54,080 INFO 3426 [egg-multipart] stream mode enable
+2019-10-30 10:14:54,245 INFO 3426 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:14:54,246 INFO 3426 [egg-security] use methodnoallow middleware
+2019-10-30 10:14:54,247 INFO 3426 [egg-security] use noopen middleware
+2019-10-30 10:14:54,247 INFO 3426 [egg-security] use nosniff middleware
+2019-10-30 10:14:54,247 INFO 3426 [egg-security] use xssProtection middleware
+2019-10-30 10:14:54,247 INFO 3426 [egg-security] use xframe middleware
+2019-10-30 10:14:54,247 INFO 3426 [egg-security] use dta middleware
+2019-10-30 10:14:54,247 INFO 3426 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:14:54,253 INFO 3426 [egg:core] dump config after load, 4ms
+2019-10-30 10:14:54,275 INFO 3426 [egg-watcher:application] watcher start success
+2019-10-30 10:14:54,294 INFO 3426 [egg:core] dump config after ready, 3ms
+2019-10-30 10:14:54,719 INFO 3437 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:14:54,765 INFO 3437 [egg-multipart] stream mode enable
+2019-10-30 10:14:55,096 INFO 3437 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:14:55,098 INFO 3437 [egg-security] use methodnoallow middleware
+2019-10-30 10:14:55,098 INFO 3437 [egg-security] use noopen middleware
+2019-10-30 10:14:55,098 INFO 3437 [egg-security] use nosniff middleware
+2019-10-30 10:14:55,099 INFO 3437 [egg-security] use xssProtection middleware
+2019-10-30 10:14:55,099 INFO 3437 [egg-security] use xframe middleware
+2019-10-30 10:14:55,100 INFO 3437 [egg-security] use dta middleware
+2019-10-30 10:14:55,100 INFO 3437 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:14:55,114 INFO 3437 [egg:core] dump config after load, 12ms
+2019-10-30 10:14:55,162 INFO 3437 [egg-watcher:application] watcher start success
+2019-10-30 10:14:55,195 INFO 3437 [egg:core] dump config after ready, 6ms
+2019-10-30 10:15:08,550 INFO 3449 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:15:08,571 INFO 3449 [egg-multipart] stream mode enable
+2019-10-30 10:15:08,728 INFO 3449 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:15:08,729 INFO 3449 [egg-security] use methodnoallow middleware
+2019-10-30 10:15:08,729 INFO 3449 [egg-security] use noopen middleware
+2019-10-30 10:15:08,730 INFO 3449 [egg-security] use nosniff middleware
+2019-10-30 10:15:08,730 INFO 3449 [egg-security] use xssProtection middleware
+2019-10-30 10:15:08,730 INFO 3449 [egg-security] use xframe middleware
+2019-10-30 10:15:08,730 INFO 3449 [egg-security] use dta middleware
+2019-10-30 10:15:08,730 INFO 3449 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:15:08,735 INFO 3449 [egg:core] dump config after load, 3ms
+2019-10-30 10:15:08,757 INFO 3449 [egg-watcher:application] watcher start success
+2019-10-30 10:15:08,784 INFO 3449 [egg:core] dump config after ready, 3ms
+2019-10-30 10:15:09,129 INFO 3460 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:15:09,150 INFO 3460 [egg-multipart] stream mode enable
+2019-10-30 10:15:09,320 INFO 3460 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:15:09,322 INFO 3460 [egg-security] use methodnoallow middleware
+2019-10-30 10:15:09,322 INFO 3460 [egg-security] use noopen middleware
+2019-10-30 10:15:09,322 INFO 3460 [egg-security] use nosniff middleware
+2019-10-30 10:15:09,322 INFO 3460 [egg-security] use xssProtection middleware
+2019-10-30 10:15:09,323 INFO 3460 [egg-security] use xframe middleware
+2019-10-30 10:15:09,323 INFO 3460 [egg-security] use dta middleware
+2019-10-30 10:15:09,323 INFO 3460 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:15:09,328 INFO 3460 [egg:core] dump config after load, 3ms
+2019-10-30 10:15:09,356 INFO 3460 [egg-watcher:application] watcher start success
+2019-10-30 10:15:09,432 INFO 3460 [egg:core] dump config after ready, 15ms
+2019-10-30 10:17:42,756 INFO 3832 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:17:42,772 INFO 3832 [egg-multipart] stream mode enable
+2019-10-30 10:17:42,914 INFO 3832 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:17:42,915 INFO 3832 [egg-security] use methodnoallow middleware
+2019-10-30 10:17:42,915 INFO 3832 [egg-security] use noopen middleware
+2019-10-30 10:17:42,915 INFO 3832 [egg-security] use nosniff middleware
+2019-10-30 10:17:42,916 INFO 3832 [egg-security] use xssProtection middleware
+2019-10-30 10:17:42,916 INFO 3832 [egg-security] use xframe middleware
+2019-10-30 10:17:42,916 INFO 3832 [egg-security] use dta middleware
+2019-10-30 10:17:42,916 INFO 3832 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:17:42,921 INFO 3832 [egg:core] dump config after load, 3ms
+2019-10-30 10:17:42,941 INFO 3832 [egg-watcher:application] watcher start success
+2019-10-30 10:17:42,960 INFO 3832 [egg:core] dump config after ready, 3ms
+2019-10-30 10:20:40,507 INFO 3946 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:20:40,527 INFO 3946 [egg-multipart] stream mode enable
+2019-10-30 10:20:40,674 INFO 3946 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:20:40,676 INFO 3946 [egg-security] use methodnoallow middleware
+2019-10-30 10:20:40,676 INFO 3946 [egg-security] use noopen middleware
+2019-10-30 10:20:40,676 INFO 3946 [egg-security] use nosniff middleware
+2019-10-30 10:20:40,676 INFO 3946 [egg-security] use xssProtection middleware
+2019-10-30 10:20:40,677 INFO 3946 [egg-security] use xframe middleware
+2019-10-30 10:20:40,677 INFO 3946 [egg-security] use dta middleware
+2019-10-30 10:20:40,677 INFO 3946 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:20:40,682 INFO 3946 [egg:core] dump config after load, 3ms
+2019-10-30 10:20:40,702 INFO 3946 [egg-watcher:application] watcher start success
+2019-10-30 10:20:40,722 INFO 3946 [egg:core] dump config after ready, 4ms
+2019-10-30 10:20:41,068 INFO 3957 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:20:41,089 INFO 3957 [egg-multipart] stream mode enable
+2019-10-30 10:20:41,235 INFO 3957 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:20:41,237 INFO 3957 [egg-security] use methodnoallow middleware
+2019-10-30 10:20:41,237 INFO 3957 [egg-security] use noopen middleware
+2019-10-30 10:20:41,237 INFO 3957 [egg-security] use nosniff middleware
+2019-10-30 10:20:41,237 INFO 3957 [egg-security] use xssProtection middleware
+2019-10-30 10:20:41,238 INFO 3957 [egg-security] use xframe middleware
+2019-10-30 10:20:41,238 INFO 3957 [egg-security] use dta middleware
+2019-10-30 10:20:41,238 INFO 3957 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:20:41,243 INFO 3957 [egg:core] dump config after load, 3ms
+2019-10-30 10:20:41,268 INFO 3957 [egg-watcher:application] watcher start success
+2019-10-30 10:20:41,295 INFO 3957 [egg:core] dump config after ready, 4ms
+2019-10-30 10:22:52,503 INFO 4110 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:22:52,569 INFO 4110 [egg-multipart] stream mode enable
+2019-10-30 10:22:52,884 INFO 4110 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:22:52,885 INFO 4110 [egg-security] use methodnoallow middleware
+2019-10-30 10:22:52,885 INFO 4110 [egg-security] use noopen middleware
+2019-10-30 10:22:52,886 INFO 4110 [egg-security] use nosniff middleware
+2019-10-30 10:22:52,886 INFO 4110 [egg-security] use xssProtection middleware
+2019-10-30 10:22:52,886 INFO 4110 [egg-security] use xframe middleware
+2019-10-30 10:22:52,886 INFO 4110 [egg-security] use dta middleware
+2019-10-30 10:22:52,886 INFO 4110 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:22:52,900 INFO 4110 [egg:core] dump config after load, 10ms
+2019-10-30 10:22:52,934 INFO 4110 [egg-watcher:application] watcher start success
+2019-10-30 10:22:52,978 INFO 4110 [egg:core] dump config after ready, 9ms
+2019-10-30 10:22:53,523 INFO 4121 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:22:53,540 INFO 4121 [egg-multipart] stream mode enable
+2019-10-30 10:22:53,751 INFO 4121 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:22:53,752 INFO 4121 [egg-security] use methodnoallow middleware
+2019-10-30 10:22:53,752 INFO 4121 [egg-security] use noopen middleware
+2019-10-30 10:22:53,752 INFO 4121 [egg-security] use nosniff middleware
+2019-10-30 10:22:53,753 INFO 4121 [egg-security] use xssProtection middleware
+2019-10-30 10:22:53,753 INFO 4121 [egg-security] use xframe middleware
+2019-10-30 10:22:53,753 INFO 4121 [egg-security] use dta middleware
+2019-10-30 10:22:53,753 INFO 4121 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:22:53,764 INFO 4121 [egg:core] dump config after load, 8ms
+2019-10-30 10:22:53,785 INFO 4121 [egg-watcher:application] watcher start success
+2019-10-30 10:22:53,805 INFO 4121 [egg:core] dump config after ready, 4ms
+2019-10-30 10:23:04,252 INFO 4193 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:23:04,305 INFO 4193 [egg-multipart] stream mode enable
+2019-10-30 10:23:04,520 INFO 4193 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:23:04,522 INFO 4193 [egg-security] use methodnoallow middleware
+2019-10-30 10:23:04,522 INFO 4193 [egg-security] use noopen middleware
+2019-10-30 10:23:04,522 INFO 4193 [egg-security] use nosniff middleware
+2019-10-30 10:23:04,522 INFO 4193 [egg-security] use xssProtection middleware
+2019-10-30 10:23:04,522 INFO 4193 [egg-security] use xframe middleware
+2019-10-30 10:23:04,523 INFO 4193 [egg-security] use dta middleware
+2019-10-30 10:23:04,523 INFO 4193 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:23:04,529 INFO 4193 [egg:core] dump config after load, 3ms
+2019-10-30 10:23:04,568 INFO 4193 [egg-watcher:application] watcher start success
+2019-10-30 10:23:04,595 INFO 4193 [egg:core] dump config after ready, 9ms
+2019-10-30 10:42:51,518 INFO 4987 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:42:51,567 INFO 4987 [egg-multipart] stream mode enable
+2019-10-30 10:42:51,882 INFO 4987 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:42:51,886 INFO 4987 [egg-security] use methodnoallow middleware
+2019-10-30 10:42:51,887 INFO 4987 [egg-security] use noopen middleware
+2019-10-30 10:42:51,888 INFO 4987 [egg-security] use nosniff middleware
+2019-10-30 10:42:51,889 INFO 4987 [egg-security] use xssProtection middleware
+2019-10-30 10:42:51,892 INFO 4987 [egg-security] use xframe middleware
+2019-10-30 10:42:51,893 INFO 4987 [egg-security] use dta middleware
+2019-10-30 10:42:51,893 INFO 4987 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:42:51,909 INFO 4987 [egg:core] dump config after load, 12ms
+2019-10-30 10:42:51,950 INFO 4987 [egg-watcher:application] watcher start success
+2019-10-30 10:42:51,999 INFO 4987 [egg:core] dump config after ready, 10ms
+2019-10-30 10:44:58,901 INFO 5047 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:44:58,923 INFO 5047 [egg-multipart] stream mode enable
+2019-10-30 10:44:59,090 INFO 5047 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:44:59,091 INFO 5047 [egg-security] use methodnoallow middleware
+2019-10-30 10:44:59,091 INFO 5047 [egg-security] use noopen middleware
+2019-10-30 10:44:59,091 INFO 5047 [egg-security] use nosniff middleware
+2019-10-30 10:44:59,092 INFO 5047 [egg-security] use xssProtection middleware
+2019-10-30 10:44:59,092 INFO 5047 [egg-security] use xframe middleware
+2019-10-30 10:44:59,092 INFO 5047 [egg-security] use dta middleware
+2019-10-30 10:44:59,092 INFO 5047 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:44:59,097 INFO 5047 [egg:core] dump config after load, 3ms
+2019-10-30 10:44:59,117 INFO 5047 [egg-watcher:application] watcher start success
+2019-10-30 10:44:59,146 INFO 5047 [egg:core] dump config after ready, 3ms
+2019-10-30 10:44:59,547 INFO 5058 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 10:44:59,568 INFO 5058 [egg-multipart] stream mode enable
+2019-10-30 10:44:59,739 INFO 5058 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 10:44:59,740 INFO 5058 [egg-security] use methodnoallow middleware
+2019-10-30 10:44:59,741 INFO 5058 [egg-security] use noopen middleware
+2019-10-30 10:44:59,741 INFO 5058 [egg-security] use nosniff middleware
+2019-10-30 10:44:59,741 INFO 5058 [egg-security] use xssProtection middleware
+2019-10-30 10:44:59,741 INFO 5058 [egg-security] use xframe middleware
+2019-10-30 10:44:59,741 INFO 5058 [egg-security] use dta middleware
+2019-10-30 10:44:59,741 INFO 5058 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 10:44:59,747 INFO 5058 [egg:core] dump config after load, 4ms
+2019-10-30 10:44:59,768 INFO 5058 [egg-watcher:application] watcher start success
+2019-10-30 10:44:59,789 INFO 5058 [egg:core] dump config after ready, 4ms
+2019-10-30 11:29:37,147 INFO 6703 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:29:37,167 INFO 6703 [egg-multipart] stream mode enable
+2019-10-30 11:29:37,347 INFO 6703 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:29:37,352 INFO 6703 [egg-security] use methodnoallow middleware
+2019-10-30 11:29:37,352 INFO 6703 [egg-security] use noopen middleware
+2019-10-30 11:29:37,353 INFO 6703 [egg-security] use nosniff middleware
+2019-10-30 11:29:37,353 INFO 6703 [egg-security] use xssProtection middleware
+2019-10-30 11:29:37,353 INFO 6703 [egg-security] use xframe middleware
+2019-10-30 11:29:37,353 INFO 6703 [egg-security] use dta middleware
+2019-10-30 11:29:37,353 INFO 6703 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:29:37,359 INFO 6703 [egg:core] dump config after load, 4ms
+2019-10-30 11:29:37,385 INFO 6703 [egg-watcher:application] watcher start success
+2019-10-30 11:29:37,414 INFO 6703 [egg:core] dump config after ready, 8ms
+2019-10-30 11:30:18,748 INFO 6743 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:30:18,765 INFO 6743 [egg-multipart] stream mode enable
+2019-10-30 11:30:18,909 INFO 6743 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:30:18,912 INFO 6743 [egg-security] use methodnoallow middleware
+2019-10-30 11:30:18,913 INFO 6743 [egg-security] use noopen middleware
+2019-10-30 11:30:18,914 INFO 6743 [egg-security] use nosniff middleware
+2019-10-30 11:30:18,915 INFO 6743 [egg-security] use xssProtection middleware
+2019-10-30 11:30:18,915 INFO 6743 [egg-security] use xframe middleware
+2019-10-30 11:30:18,915 INFO 6743 [egg-security] use dta middleware
+2019-10-30 11:30:18,915 INFO 6743 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:30:18,922 INFO 6743 [egg:core] dump config after load, 4ms
+2019-10-30 11:30:18,943 INFO 6743 [egg-watcher:application] watcher start success
+2019-10-30 11:30:18,962 INFO 6743 [egg:core] dump config after ready, 4ms
+2019-10-30 11:30:19,313 INFO 6754 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:30:19,334 INFO 6754 [egg-multipart] stream mode enable
+2019-10-30 11:30:19,490 INFO 6754 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:30:19,491 INFO 6754 [egg-security] use methodnoallow middleware
+2019-10-30 11:30:19,491 INFO 6754 [egg-security] use noopen middleware
+2019-10-30 11:30:19,492 INFO 6754 [egg-security] use nosniff middleware
+2019-10-30 11:30:19,492 INFO 6754 [egg-security] use xssProtection middleware
+2019-10-30 11:30:19,492 INFO 6754 [egg-security] use xframe middleware
+2019-10-30 11:30:19,492 INFO 6754 [egg-security] use dta middleware
+2019-10-30 11:30:19,492 INFO 6754 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:30:19,498 INFO 6754 [egg:core] dump config after load, 4ms
+2019-10-30 11:30:19,524 INFO 6754 [egg-watcher:application] watcher start success
+2019-10-30 11:30:19,544 INFO 6754 [egg:core] dump config after ready, 3ms
+2019-10-30 11:30:40,591 INFO 6767 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:30:40,611 INFO 6767 [egg-multipart] stream mode enable
+2019-10-30 11:30:40,766 INFO 6767 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:30:40,767 INFO 6767 [egg-security] use methodnoallow middleware
+2019-10-30 11:30:40,767 INFO 6767 [egg-security] use noopen middleware
+2019-10-30 11:30:40,767 INFO 6767 [egg-security] use nosniff middleware
+2019-10-30 11:30:40,768 INFO 6767 [egg-security] use xssProtection middleware
+2019-10-30 11:30:40,768 INFO 6767 [egg-security] use xframe middleware
+2019-10-30 11:30:40,768 INFO 6767 [egg-security] use dta middleware
+2019-10-30 11:30:40,768 INFO 6767 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:30:40,774 INFO 6767 [egg:core] dump config after load, 4ms
+2019-10-30 11:30:40,795 INFO 6767 [egg-watcher:application] watcher start success
+2019-10-30 11:30:40,814 INFO 6767 [egg:core] dump config after ready, 3ms
+2019-10-30 11:30:41,162 INFO 6778 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:30:41,182 INFO 6778 [egg-multipart] stream mode enable
+2019-10-30 11:30:41,342 INFO 6778 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:30:41,343 INFO 6778 [egg-security] use methodnoallow middleware
+2019-10-30 11:30:41,344 INFO 6778 [egg-security] use noopen middleware
+2019-10-30 11:30:41,344 INFO 6778 [egg-security] use nosniff middleware
+2019-10-30 11:30:41,344 INFO 6778 [egg-security] use xssProtection middleware
+2019-10-30 11:30:41,344 INFO 6778 [egg-security] use xframe middleware
+2019-10-30 11:30:41,344 INFO 6778 [egg-security] use dta middleware
+2019-10-30 11:30:41,344 INFO 6778 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:30:41,350 INFO 6778 [egg:core] dump config after load, 3ms
+2019-10-30 11:30:41,371 INFO 6778 [egg-watcher:application] watcher start success
+2019-10-30 11:30:41,398 INFO 6778 [egg:core] dump config after ready, 4ms
+2019-10-30 11:36:44,597 INFO 7128 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:36:44,618 INFO 7128 [egg-multipart] stream mode enable
+2019-10-30 11:36:44,775 INFO 7128 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:36:44,777 INFO 7128 [egg-security] use methodnoallow middleware
+2019-10-30 11:36:44,777 INFO 7128 [egg-security] use noopen middleware
+2019-10-30 11:36:44,777 INFO 7128 [egg-security] use nosniff middleware
+2019-10-30 11:36:44,777 INFO 7128 [egg-security] use xssProtection middleware
+2019-10-30 11:36:44,777 INFO 7128 [egg-security] use xframe middleware
+2019-10-30 11:36:44,777 INFO 7128 [egg-security] use dta middleware
+2019-10-30 11:36:44,778 INFO 7128 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:36:44,783 INFO 7128 [egg:core] dump config after load, 3ms
+2019-10-30 11:36:44,804 INFO 7128 [egg-watcher:application] watcher start success
+2019-10-30 11:36:44,823 INFO 7128 [egg:core] dump config after ready, 4ms
+2019-10-30 11:36:45,219 INFO 7139 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:36:45,243 INFO 7139 [egg-multipart] stream mode enable
+2019-10-30 11:36:45,388 INFO 7139 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:36:45,389 INFO 7139 [egg-security] use methodnoallow middleware
+2019-10-30 11:36:45,389 INFO 7139 [egg-security] use noopen middleware
+2019-10-30 11:36:45,389 INFO 7139 [egg-security] use nosniff middleware
+2019-10-30 11:36:45,389 INFO 7139 [egg-security] use xssProtection middleware
+2019-10-30 11:36:45,390 INFO 7139 [egg-security] use xframe middleware
+2019-10-30 11:36:45,390 INFO 7139 [egg-security] use dta middleware
+2019-10-30 11:36:45,390 INFO 7139 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:36:45,395 INFO 7139 [egg:core] dump config after load, 3ms
+2019-10-30 11:36:45,417 INFO 7139 [egg-watcher:application] watcher start success
+2019-10-30 11:36:45,443 INFO 7139 [egg:core] dump config after ready, 10ms
+2019-10-30 11:39:15,087 INFO 7216 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:39:15,108 INFO 7216 [egg-multipart] stream mode enable
+2019-10-30 11:39:15,260 INFO 7216 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:39:15,261 INFO 7216 [egg-security] use methodnoallow middleware
+2019-10-30 11:39:15,261 INFO 7216 [egg-security] use noopen middleware
+2019-10-30 11:39:15,261 INFO 7216 [egg-security] use nosniff middleware
+2019-10-30 11:39:15,262 INFO 7216 [egg-security] use xssProtection middleware
+2019-10-30 11:39:15,262 INFO 7216 [egg-security] use xframe middleware
+2019-10-30 11:39:15,262 INFO 7216 [egg-security] use dta middleware
+2019-10-30 11:39:15,262 INFO 7216 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:39:15,268 INFO 7216 [egg:core] dump config after load, 4ms
+2019-10-30 11:39:15,294 INFO 7216 [egg-watcher:application] watcher start success
+2019-10-30 11:39:15,313 INFO 7216 [egg:core] dump config after ready, 3ms
+2019-10-30 11:39:15,651 INFO 7227 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:39:15,675 INFO 7227 [egg-multipart] stream mode enable
+2019-10-30 11:39:15,827 INFO 7227 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:39:15,828 INFO 7227 [egg-security] use methodnoallow middleware
+2019-10-30 11:39:15,828 INFO 7227 [egg-security] use noopen middleware
+2019-10-30 11:39:15,829 INFO 7227 [egg-security] use nosniff middleware
+2019-10-30 11:39:15,829 INFO 7227 [egg-security] use xssProtection middleware
+2019-10-30 11:39:15,829 INFO 7227 [egg-security] use xframe middleware
+2019-10-30 11:39:15,829 INFO 7227 [egg-security] use dta middleware
+2019-10-30 11:39:15,829 INFO 7227 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:39:15,835 INFO 7227 [egg:core] dump config after load, 4ms
+2019-10-30 11:39:15,855 INFO 7227 [egg-watcher:application] watcher start success
+2019-10-30 11:39:15,874 INFO 7227 [egg:core] dump config after ready, 4ms
+2019-10-30 11:40:11,913 INFO 7260 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:40:11,930 INFO 7260 [egg-multipart] stream mode enable
+2019-10-30 11:40:12,125 INFO 7260 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:40:12,126 INFO 7260 [egg-security] use methodnoallow middleware
+2019-10-30 11:40:12,126 INFO 7260 [egg-security] use noopen middleware
+2019-10-30 11:40:12,127 INFO 7260 [egg-security] use nosniff middleware
+2019-10-30 11:40:12,127 INFO 7260 [egg-security] use xssProtection middleware
+2019-10-30 11:40:12,127 INFO 7260 [egg-security] use xframe middleware
+2019-10-30 11:40:12,127 INFO 7260 [egg-security] use dta middleware
+2019-10-30 11:40:12,127 INFO 7260 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:40:12,133 INFO 7260 [egg:core] dump config after load, 4ms
+2019-10-30 11:40:12,153 INFO 7260 [egg-watcher:application] watcher start success
+2019-10-30 11:40:12,172 INFO 7260 [egg:core] dump config after ready, 4ms
+2019-10-30 11:40:12,593 INFO 7271 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:40:12,625 INFO 7271 [egg-multipart] stream mode enable
+2019-10-30 11:40:12,809 INFO 7271 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:40:12,810 INFO 7271 [egg-security] use methodnoallow middleware
+2019-10-30 11:40:12,811 INFO 7271 [egg-security] use noopen middleware
+2019-10-30 11:40:12,811 INFO 7271 [egg-security] use nosniff middleware
+2019-10-30 11:40:12,811 INFO 7271 [egg-security] use xssProtection middleware
+2019-10-30 11:40:12,811 INFO 7271 [egg-security] use xframe middleware
+2019-10-30 11:40:12,811 INFO 7271 [egg-security] use dta middleware
+2019-10-30 11:40:12,811 INFO 7271 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:40:12,817 INFO 7271 [egg:core] dump config after load, 3ms
+2019-10-30 11:40:12,845 INFO 7271 [egg-watcher:application] watcher start success
+2019-10-30 11:40:12,874 INFO 7271 [egg:core] dump config after ready, 4ms
+2019-10-30 11:40:33,799 INFO 7291 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:40:33,819 INFO 7291 [egg-multipart] stream mode enable
+2019-10-30 11:40:33,977 INFO 7291 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:40:33,978 INFO 7291 [egg-security] use methodnoallow middleware
+2019-10-30 11:40:33,979 INFO 7291 [egg-security] use noopen middleware
+2019-10-30 11:40:33,979 INFO 7291 [egg-security] use nosniff middleware
+2019-10-30 11:40:33,979 INFO 7291 [egg-security] use xssProtection middleware
+2019-10-30 11:40:33,979 INFO 7291 [egg-security] use xframe middleware
+2019-10-30 11:40:33,979 INFO 7291 [egg-security] use dta middleware
+2019-10-30 11:40:33,979 INFO 7291 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:40:33,985 INFO 7291 [egg:core] dump config after load, 4ms
+2019-10-30 11:40:34,006 INFO 7291 [egg-watcher:application] watcher start success
+2019-10-30 11:40:34,025 INFO 7291 [egg:core] dump config after ready, 4ms
+2019-10-30 11:40:34,379 INFO 7302 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:40:34,399 INFO 7302 [egg-multipart] stream mode enable
+2019-10-30 11:40:34,543 INFO 7302 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:40:34,544 INFO 7302 [egg-security] use methodnoallow middleware
+2019-10-30 11:40:34,544 INFO 7302 [egg-security] use noopen middleware
+2019-10-30 11:40:34,544 INFO 7302 [egg-security] use nosniff middleware
+2019-10-30 11:40:34,545 INFO 7302 [egg-security] use xssProtection middleware
+2019-10-30 11:40:34,545 INFO 7302 [egg-security] use xframe middleware
+2019-10-30 11:40:34,545 INFO 7302 [egg-security] use dta middleware
+2019-10-30 11:40:34,545 INFO 7302 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:40:34,550 INFO 7302 [egg:core] dump config after load, 3ms
+2019-10-30 11:40:34,571 INFO 7302 [egg-watcher:application] watcher start success
+2019-10-30 11:40:34,590 INFO 7302 [egg:core] dump config after ready, 4ms
+2019-10-30 11:41:04,708 INFO 7381 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:41:04,734 INFO 7381 [egg-multipart] stream mode enable
+2019-10-30 11:41:04,885 INFO 7381 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:41:04,886 INFO 7381 [egg-security] use methodnoallow middleware
+2019-10-30 11:41:04,886 INFO 7381 [egg-security] use noopen middleware
+2019-10-30 11:41:04,886 INFO 7381 [egg-security] use nosniff middleware
+2019-10-30 11:41:04,887 INFO 7381 [egg-security] use xssProtection middleware
+2019-10-30 11:41:04,887 INFO 7381 [egg-security] use xframe middleware
+2019-10-30 11:41:04,887 INFO 7381 [egg-security] use dta middleware
+2019-10-30 11:41:04,887 INFO 7381 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:41:04,893 INFO 7381 [egg:core] dump config after load, 3ms
+2019-10-30 11:41:04,914 INFO 7381 [egg-watcher:application] watcher start success
+2019-10-30 11:41:04,934 INFO 7381 [egg:core] dump config after ready, 4ms
+2019-10-30 11:41:33,003 INFO 7410 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:41:33,025 INFO 7410 [egg-multipart] stream mode enable
+2019-10-30 11:41:33,224 INFO 7410 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:41:33,226 INFO 7410 [egg-security] use methodnoallow middleware
+2019-10-30 11:41:33,226 INFO 7410 [egg-security] use noopen middleware
+2019-10-30 11:41:33,227 INFO 7410 [egg-security] use nosniff middleware
+2019-10-30 11:41:33,227 INFO 7410 [egg-security] use xssProtection middleware
+2019-10-30 11:41:33,227 INFO 7410 [egg-security] use xframe middleware
+2019-10-30 11:41:33,227 INFO 7410 [egg-security] use dta middleware
+2019-10-30 11:41:33,227 INFO 7410 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:41:33,241 INFO 7410 [egg:core] dump config after load, 11ms
+2019-10-30 11:41:33,280 INFO 7410 [egg-watcher:application] watcher start success
+2019-10-30 11:41:33,316 INFO 7410 [egg:core] dump config after ready, 6ms
+2019-10-30 11:41:33,748 INFO 7421 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:41:33,778 INFO 7421 [egg-multipart] stream mode enable
+2019-10-30 11:41:33,924 INFO 7421 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:41:33,925 INFO 7421 [egg-security] use methodnoallow middleware
+2019-10-30 11:41:33,925 INFO 7421 [egg-security] use noopen middleware
+2019-10-30 11:41:33,925 INFO 7421 [egg-security] use nosniff middleware
+2019-10-30 11:41:33,926 INFO 7421 [egg-security] use xssProtection middleware
+2019-10-30 11:41:33,926 INFO 7421 [egg-security] use xframe middleware
+2019-10-30 11:41:33,926 INFO 7421 [egg-security] use dta middleware
+2019-10-30 11:41:33,926 INFO 7421 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:41:33,932 INFO 7421 [egg:core] dump config after load, 3ms
+2019-10-30 11:41:33,952 INFO 7421 [egg-watcher:application] watcher start success
+2019-10-30 11:41:33,972 INFO 7421 [egg:core] dump config after ready, 4ms
+2019-10-30 11:41:43,847 ERROR 7421 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'config' of undefined
+    at new BaseContextClass (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/home/superman/project/eggjs-demo/node_modules/_egg@2.23.0@egg/lib/core/base_context_class.js:13:1)
+    at new ChatController (/home/superman/project/eggjs-demo/app/controller/chat.js:10:1)
+    at Object.classControllerMiddleware [as addNewRecords] (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:83:26)
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:20:39)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Socket.socket.on.args (/home/superman/project/eggjs-demo/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:104:23)
+    at Socket.emit (events.js:198:13)
+    at /home/superman/project/eggjs-demo/node_modules/_socket.io@2.3.0@socket.io/lib/socket.js:528:12
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 7421
+hostname: archlinux
+
+2019-10-30 11:43:31,076 INFO 7479 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:43:31,099 INFO 7479 [egg-multipart] stream mode enable
+2019-10-30 11:43:31,250 INFO 7479 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:43:31,251 INFO 7479 [egg-security] use methodnoallow middleware
+2019-10-30 11:43:31,251 INFO 7479 [egg-security] use noopen middleware
+2019-10-30 11:43:31,251 INFO 7479 [egg-security] use nosniff middleware
+2019-10-30 11:43:31,251 INFO 7479 [egg-security] use xssProtection middleware
+2019-10-30 11:43:31,252 INFO 7479 [egg-security] use xframe middleware
+2019-10-30 11:43:31,252 INFO 7479 [egg-security] use dta middleware
+2019-10-30 11:43:31,252 INFO 7479 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:43:31,257 INFO 7479 [egg:core] dump config after load, 3ms
+2019-10-30 11:43:31,279 INFO 7479 [egg-watcher:application] watcher start success
+2019-10-30 11:43:31,298 INFO 7479 [egg:core] dump config after ready, 4ms
+2019-10-30 11:43:31,644 INFO 7490 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:43:31,664 INFO 7490 [egg-multipart] stream mode enable
+2019-10-30 11:43:31,807 INFO 7490 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:43:31,808 INFO 7490 [egg-security] use methodnoallow middleware
+2019-10-30 11:43:31,809 INFO 7490 [egg-security] use noopen middleware
+2019-10-30 11:43:31,809 INFO 7490 [egg-security] use nosniff middleware
+2019-10-30 11:43:31,809 INFO 7490 [egg-security] use xssProtection middleware
+2019-10-30 11:43:31,809 INFO 7490 [egg-security] use xframe middleware
+2019-10-30 11:43:31,809 INFO 7490 [egg-security] use dta middleware
+2019-10-30 11:43:31,809 INFO 7490 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:43:31,815 INFO 7490 [egg:core] dump config after load, 3ms
+2019-10-30 11:43:31,836 INFO 7490 [egg-watcher:application] watcher start success
+2019-10-30 11:43:31,855 INFO 7490 [egg:core] dump config after ready, 3ms
+2019-10-30 11:44:03,726 INFO 7514 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:44:03,747 INFO 7514 [egg-multipart] stream mode enable
+2019-10-30 11:44:03,898 INFO 7514 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:44:03,900 INFO 7514 [egg-security] use methodnoallow middleware
+2019-10-30 11:44:03,900 INFO 7514 [egg-security] use noopen middleware
+2019-10-30 11:44:03,900 INFO 7514 [egg-security] use nosniff middleware
+2019-10-30 11:44:03,900 INFO 7514 [egg-security] use xssProtection middleware
+2019-10-30 11:44:03,900 INFO 7514 [egg-security] use xframe middleware
+2019-10-30 11:44:03,900 INFO 7514 [egg-security] use dta middleware
+2019-10-30 11:44:03,901 INFO 7514 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:44:03,906 INFO 7514 [egg:core] dump config after load, 3ms
+2019-10-30 11:44:03,927 INFO 7514 [egg-watcher:application] watcher start success
+2019-10-30 11:44:03,946 INFO 7514 [egg:core] dump config after ready, 4ms
+2019-10-30 11:44:04,286 INFO 7526 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:44:04,313 INFO 7526 [egg-multipart] stream mode enable
+2019-10-30 11:44:04,459 INFO 7526 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:44:04,461 INFO 7526 [egg-security] use methodnoallow middleware
+2019-10-30 11:44:04,461 INFO 7526 [egg-security] use noopen middleware
+2019-10-30 11:44:04,461 INFO 7526 [egg-security] use nosniff middleware
+2019-10-30 11:44:04,461 INFO 7526 [egg-security] use xssProtection middleware
+2019-10-30 11:44:04,462 INFO 7526 [egg-security] use xframe middleware
+2019-10-30 11:44:04,462 INFO 7526 [egg-security] use dta middleware
+2019-10-30 11:44:04,462 INFO 7526 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:44:04,467 INFO 7526 [egg:core] dump config after load, 3ms
+2019-10-30 11:44:04,488 INFO 7526 [egg-watcher:application] watcher start success
+2019-10-30 11:44:04,507 INFO 7526 [egg:core] dump config after ready, 3ms
+2019-10-30 11:44:29,503 INFO 7546 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:44:29,523 INFO 7546 [egg-multipart] stream mode enable
+2019-10-30 11:44:29,673 INFO 7546 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:44:29,675 INFO 7546 [egg-security] use methodnoallow middleware
+2019-10-30 11:44:29,675 INFO 7546 [egg-security] use noopen middleware
+2019-10-30 11:44:29,675 INFO 7546 [egg-security] use nosniff middleware
+2019-10-30 11:44:29,675 INFO 7546 [egg-security] use xssProtection middleware
+2019-10-30 11:44:29,676 INFO 7546 [egg-security] use xframe middleware
+2019-10-30 11:44:29,676 INFO 7546 [egg-security] use dta middleware
+2019-10-30 11:44:29,676 INFO 7546 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:44:29,681 INFO 7546 [egg:core] dump config after load, 3ms
+2019-10-30 11:44:29,702 INFO 7546 [egg-watcher:application] watcher start success
+2019-10-30 11:44:29,720 INFO 7546 [egg:core] dump config after ready, 3ms
+2019-10-30 11:44:30,159 INFO 7557 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:44:30,179 INFO 7557 [egg-multipart] stream mode enable
+2019-10-30 11:44:30,328 INFO 7557 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:44:30,329 INFO 7557 [egg-security] use methodnoallow middleware
+2019-10-30 11:44:30,329 INFO 7557 [egg-security] use noopen middleware
+2019-10-30 11:44:30,330 INFO 7557 [egg-security] use nosniff middleware
+2019-10-30 11:44:30,330 INFO 7557 [egg-security] use xssProtection middleware
+2019-10-30 11:44:30,330 INFO 7557 [egg-security] use xframe middleware
+2019-10-30 11:44:30,330 INFO 7557 [egg-security] use dta middleware
+2019-10-30 11:44:30,330 INFO 7557 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:44:30,336 INFO 7557 [egg:core] dump config after load, 4ms
+2019-10-30 11:44:30,356 INFO 7557 [egg-watcher:application] watcher start success
+2019-10-30 11:44:30,375 INFO 7557 [egg:core] dump config after ready, 3ms
+2019-10-30 11:47:18,966 INFO 7704 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:47:19,014 INFO 7704 [egg-multipart] stream mode enable
+2019-10-30 11:47:19,302 INFO 7704 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:47:19,308 INFO 7704 [egg-security] use methodnoallow middleware
+2019-10-30 11:47:19,308 INFO 7704 [egg-security] use noopen middleware
+2019-10-30 11:47:19,309 INFO 7704 [egg-security] use nosniff middleware
+2019-10-30 11:47:19,309 INFO 7704 [egg-security] use xssProtection middleware
+2019-10-30 11:47:19,309 INFO 7704 [egg-security] use xframe middleware
+2019-10-30 11:47:19,309 INFO 7704 [egg-security] use dta middleware
+2019-10-30 11:47:19,309 INFO 7704 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:47:19,317 INFO 7704 [egg:core] dump config after load, 4ms
+2019-10-30 11:47:19,362 INFO 7704 [egg-watcher:application] watcher start success
+2019-10-30 11:47:19,398 INFO 7704 [egg:core] dump config after ready, 4ms
+2019-10-30 11:48:10,897 INFO 7749 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:48:10,929 INFO 7749 [egg-multipart] stream mode enable
+2019-10-30 11:48:11,196 INFO 7749 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:48:11,198 INFO 7749 [egg-security] use methodnoallow middleware
+2019-10-30 11:48:11,198 INFO 7749 [egg-security] use noopen middleware
+2019-10-30 11:48:11,198 INFO 7749 [egg-security] use nosniff middleware
+2019-10-30 11:48:11,199 INFO 7749 [egg-security] use xssProtection middleware
+2019-10-30 11:48:11,199 INFO 7749 [egg-security] use xframe middleware
+2019-10-30 11:48:11,199 INFO 7749 [egg-security] use dta middleware
+2019-10-30 11:48:11,199 INFO 7749 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:48:11,211 INFO 7749 [egg:core] dump config after load, 9ms
+2019-10-30 11:48:11,244 INFO 7749 [egg-watcher:application] watcher start success
+2019-10-30 11:48:11,280 INFO 7749 [egg:core] dump config after ready, 4ms
+2019-10-30 11:48:11,929 INFO 7760 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:48:11,964 INFO 7760 [egg-multipart] stream mode enable
+2019-10-30 11:48:12,228 INFO 7760 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:48:12,229 INFO 7760 [egg-security] use methodnoallow middleware
+2019-10-30 11:48:12,230 INFO 7760 [egg-security] use noopen middleware
+2019-10-30 11:48:12,230 INFO 7760 [egg-security] use nosniff middleware
+2019-10-30 11:48:12,230 INFO 7760 [egg-security] use xssProtection middleware
+2019-10-30 11:48:12,230 INFO 7760 [egg-security] use xframe middleware
+2019-10-30 11:48:12,230 INFO 7760 [egg-security] use dta middleware
+2019-10-30 11:48:12,230 INFO 7760 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:48:12,243 INFO 7760 [egg:core] dump config after load, 9ms
+2019-10-30 11:48:12,280 INFO 7760 [egg-watcher:application] watcher start success
+2019-10-30 11:48:12,314 INFO 7760 [egg:core] dump config after ready, 5ms
+2019-10-30 11:49:10,614 INFO 7800 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:49:10,642 INFO 7800 [egg-multipart] stream mode enable
+2019-10-30 11:49:10,799 INFO 7800 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:49:10,800 INFO 7800 [egg-security] use methodnoallow middleware
+2019-10-30 11:49:10,801 INFO 7800 [egg-security] use noopen middleware
+2019-10-30 11:49:10,801 INFO 7800 [egg-security] use nosniff middleware
+2019-10-30 11:49:10,801 INFO 7800 [egg-security] use xssProtection middleware
+2019-10-30 11:49:10,801 INFO 7800 [egg-security] use xframe middleware
+2019-10-30 11:49:10,801 INFO 7800 [egg-security] use dta middleware
+2019-10-30 11:49:10,801 INFO 7800 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:49:10,807 INFO 7800 [egg:core] dump config after load, 4ms
+2019-10-30 11:49:10,828 INFO 7800 [egg-watcher:application] watcher start success
+2019-10-30 11:49:10,846 INFO 7800 [egg:core] dump config after ready, 3ms
+2019-10-30 11:49:11,184 INFO 7811 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:49:11,210 INFO 7811 [egg-multipart] stream mode enable
+2019-10-30 11:49:11,368 INFO 7811 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:49:11,369 INFO 7811 [egg-security] use methodnoallow middleware
+2019-10-30 11:49:11,370 INFO 7811 [egg-security] use noopen middleware
+2019-10-30 11:49:11,370 INFO 7811 [egg-security] use nosniff middleware
+2019-10-30 11:49:11,370 INFO 7811 [egg-security] use xssProtection middleware
+2019-10-30 11:49:11,370 INFO 7811 [egg-security] use xframe middleware
+2019-10-30 11:49:11,370 INFO 7811 [egg-security] use dta middleware
+2019-10-30 11:49:11,370 INFO 7811 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:49:11,376 INFO 7811 [egg:core] dump config after load, 4ms
+2019-10-30 11:49:11,396 INFO 7811 [egg-watcher:application] watcher start success
+2019-10-30 11:49:11,416 INFO 7811 [egg:core] dump config after ready, 4ms
+2019-10-30 11:49:52,440 INFO 7843 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:49:52,469 INFO 7843 [egg-multipart] stream mode enable
+2019-10-30 11:49:52,660 INFO 7843 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:49:52,662 INFO 7843 [egg-security] use methodnoallow middleware
+2019-10-30 11:49:52,663 INFO 7843 [egg-security] use noopen middleware
+2019-10-30 11:49:52,663 INFO 7843 [egg-security] use nosniff middleware
+2019-10-30 11:49:52,663 INFO 7843 [egg-security] use xssProtection middleware
+2019-10-30 11:49:52,663 INFO 7843 [egg-security] use xframe middleware
+2019-10-30 11:49:52,663 INFO 7843 [egg-security] use dta middleware
+2019-10-30 11:49:52,663 INFO 7843 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:49:52,669 INFO 7843 [egg:core] dump config after load, 3ms
+2019-10-30 11:49:52,697 INFO 7843 [egg-watcher:application] watcher start success
+2019-10-30 11:49:52,723 INFO 7843 [egg:core] dump config after ready, 3ms
+2019-10-30 11:49:53,241 INFO 7856 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:49:53,294 INFO 7856 [egg-multipart] stream mode enable
+2019-10-30 11:49:53,486 INFO 7856 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:49:53,488 INFO 7856 [egg-security] use methodnoallow middleware
+2019-10-30 11:49:53,488 INFO 7856 [egg-security] use noopen middleware
+2019-10-30 11:49:53,488 INFO 7856 [egg-security] use nosniff middleware
+2019-10-30 11:49:53,488 INFO 7856 [egg-security] use xssProtection middleware
+2019-10-30 11:49:53,489 INFO 7856 [egg-security] use xframe middleware
+2019-10-30 11:49:53,489 INFO 7856 [egg-security] use dta middleware
+2019-10-30 11:49:53,489 INFO 7856 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:49:53,499 INFO 7856 [egg:core] dump config after load, 8ms
+2019-10-30 11:49:53,526 INFO 7856 [egg-watcher:application] watcher start success
+2019-10-30 11:49:53,553 INFO 7856 [egg:core] dump config after ready, 8ms
+2019-10-30 11:52:35,112 INFO 7919 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:52:35,138 INFO 7919 [egg-multipart] stream mode enable
+2019-10-30 11:52:35,293 INFO 7919 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:52:35,295 INFO 7919 [egg-security] use methodnoallow middleware
+2019-10-30 11:52:35,295 INFO 7919 [egg-security] use noopen middleware
+2019-10-30 11:52:35,295 INFO 7919 [egg-security] use nosniff middleware
+2019-10-30 11:52:35,295 INFO 7919 [egg-security] use xssProtection middleware
+2019-10-30 11:52:35,296 INFO 7919 [egg-security] use xframe middleware
+2019-10-30 11:52:35,296 INFO 7919 [egg-security] use dta middleware
+2019-10-30 11:52:35,296 INFO 7919 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:52:35,303 INFO 7919 [egg:core] dump config after load, 4ms
+2019-10-30 11:52:35,329 INFO 7919 [egg-watcher:application] watcher start success
+2019-10-30 11:52:35,348 INFO 7919 [egg:core] dump config after ready, 4ms
+2019-10-30 11:52:35,687 INFO 7930 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:52:35,708 INFO 7930 [egg-multipart] stream mode enable
+2019-10-30 11:52:35,860 INFO 7930 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:52:35,861 INFO 7930 [egg-security] use methodnoallow middleware
+2019-10-30 11:52:35,861 INFO 7930 [egg-security] use noopen middleware
+2019-10-30 11:52:35,861 INFO 7930 [egg-security] use nosniff middleware
+2019-10-30 11:52:35,862 INFO 7930 [egg-security] use xssProtection middleware
+2019-10-30 11:52:35,862 INFO 7930 [egg-security] use xframe middleware
+2019-10-30 11:52:35,862 INFO 7930 [egg-security] use dta middleware
+2019-10-30 11:52:35,862 INFO 7930 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:52:35,867 INFO 7930 [egg:core] dump config after load, 3ms
+2019-10-30 11:52:35,889 INFO 7930 [egg-watcher:application] watcher start success
+2019-10-30 11:52:35,907 INFO 7930 [egg:core] dump config after ready, 3ms
+2019-10-30 11:52:43,836 ERROR 7930 nodejs.SequelizeDatabaseError: [egg-socket.io] controller execute error: Unknown column 'content' in 'field list'
+    at Query.formatError (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/mysql/query.js:244:16)
+    at handler (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/mysql/query.js:51:23)
+    at Prepare.Commands.Prepare [as onResult] (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:595:11)
+    at Prepare.execute (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/debuggability.js:411:19)
+    at Promise._then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:237:17)
+    at Promise.then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:130:17)
+    at model.save (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:3963:8)
+    at Function.create (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:2224:8)
+    at ChatService.insertNewRecords (/home/superman/project/eggjs-demo/app/service/chat.js:27:31)
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:19:37)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Socket.socket.on.args (/home/superman/project/eggjs-demo/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:104:23)
+    at Socket.emit (events.js:198:13)
+    at /home/superman/project/eggjs-demo/node_modules/_socket.io@2.3.0@socket.io/lib/socket.js:528:12
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'content' in 'field list'","sql":"INSERT INTO `user` (`id`,`user_id`,`content`,`to_who`,`created_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["chenchen","1","ccc","2019-10-30 03:52:43"]}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'content' in 'field list'","sql":"INSERT INTO `user` (`id`,`user_id`,`content`,`to_who`,`created_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["chenchen","1","ccc","2019-10-30 03:52:43"]}
+sql: "INSERT INTO `user` (`id`,`user_id`,`content`,`to_who`,`created_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["chenchen","1","ccc","2019-10-30 03:52:43"]
+pid: 7930
+hostname: archlinux
+
+2019-10-30 11:58:30,600 INFO 8114 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:58:30,621 INFO 8114 [egg-multipart] stream mode enable
+2019-10-30 11:58:30,776 INFO 8114 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:58:30,778 INFO 8114 [egg-security] use methodnoallow middleware
+2019-10-30 11:58:30,778 INFO 8114 [egg-security] use noopen middleware
+2019-10-30 11:58:30,778 INFO 8114 [egg-security] use nosniff middleware
+2019-10-30 11:58:30,778 INFO 8114 [egg-security] use xssProtection middleware
+2019-10-30 11:58:30,778 INFO 8114 [egg-security] use xframe middleware
+2019-10-30 11:58:30,779 INFO 8114 [egg-security] use dta middleware
+2019-10-30 11:58:30,779 INFO 8114 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:58:30,784 INFO 8114 [egg:core] dump config after load, 3ms
+2019-10-30 11:58:30,810 INFO 8114 [egg-watcher:application] watcher start success
+2019-10-30 11:58:30,829 INFO 8114 [egg:core] dump config after ready, 3ms
+2019-10-30 11:58:31,178 INFO 8126 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:58:31,198 INFO 8126 [egg-multipart] stream mode enable
+2019-10-30 11:58:31,359 INFO 8126 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:58:31,360 INFO 8126 [egg-security] use methodnoallow middleware
+2019-10-30 11:58:31,360 INFO 8126 [egg-security] use noopen middleware
+2019-10-30 11:58:31,360 INFO 8126 [egg-security] use nosniff middleware
+2019-10-30 11:58:31,360 INFO 8126 [egg-security] use xssProtection middleware
+2019-10-30 11:58:31,361 INFO 8126 [egg-security] use xframe middleware
+2019-10-30 11:58:31,361 INFO 8126 [egg-security] use dta middleware
+2019-10-30 11:58:31,361 INFO 8126 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:58:31,366 INFO 8126 [egg:core] dump config after load, 3ms
+2019-10-30 11:58:31,388 INFO 8126 [egg-watcher:application] watcher start success
+2019-10-30 11:58:31,406 INFO 8126 [egg:core] dump config after ready, 3ms
+2019-10-30 11:59:48,294 INFO 8304 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 11:59:48,338 INFO 8304 [egg-multipart] stream mode enable
+2019-10-30 11:59:48,530 INFO 8304 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 11:59:48,531 INFO 8304 [egg-security] use methodnoallow middleware
+2019-10-30 11:59:48,531 INFO 8304 [egg-security] use noopen middleware
+2019-10-30 11:59:48,531 INFO 8304 [egg-security] use nosniff middleware
+2019-10-30 11:59:48,532 INFO 8304 [egg-security] use xssProtection middleware
+2019-10-30 11:59:48,532 INFO 8304 [egg-security] use xframe middleware
+2019-10-30 11:59:48,532 INFO 8304 [egg-security] use dta middleware
+2019-10-30 11:59:48,532 INFO 8304 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 11:59:48,539 INFO 8304 [egg:core] dump config after load, 4ms
+2019-10-30 11:59:48,570 INFO 8304 [egg-watcher:application] watcher start success
+2019-10-30 11:59:48,597 INFO 8304 [egg:core] dump config after ready, 10ms
+2019-10-30 12:04:21,651 INFO 8494 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:04:21,678 INFO 8494 [egg-multipart] stream mode enable
+2019-10-30 12:04:21,836 INFO 8494 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:04:21,837 INFO 8494 [egg-security] use methodnoallow middleware
+2019-10-30 12:04:21,838 INFO 8494 [egg-security] use noopen middleware
+2019-10-30 12:04:21,838 INFO 8494 [egg-security] use nosniff middleware
+2019-10-30 12:04:21,838 INFO 8494 [egg-security] use xssProtection middleware
+2019-10-30 12:04:21,838 INFO 8494 [egg-security] use xframe middleware
+2019-10-30 12:04:21,838 INFO 8494 [egg-security] use dta middleware
+2019-10-30 12:04:21,838 INFO 8494 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:04:21,844 INFO 8494 [egg:core] dump config after load, 3ms
+2019-10-30 12:04:21,866 INFO 8494 [egg-watcher:application] watcher start success
+2019-10-30 12:04:21,885 INFO 8494 [egg:core] dump config after ready, 3ms
+2019-10-30 12:04:22,237 INFO 8505 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:04:22,258 INFO 8505 [egg-multipart] stream mode enable
+2019-10-30 12:04:22,410 INFO 8505 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:04:22,412 INFO 8505 [egg-security] use methodnoallow middleware
+2019-10-30 12:04:22,412 INFO 8505 [egg-security] use noopen middleware
+2019-10-30 12:04:22,412 INFO 8505 [egg-security] use nosniff middleware
+2019-10-30 12:04:22,412 INFO 8505 [egg-security] use xssProtection middleware
+2019-10-30 12:04:22,413 INFO 8505 [egg-security] use xframe middleware
+2019-10-30 12:04:22,413 INFO 8505 [egg-security] use dta middleware
+2019-10-30 12:04:22,413 INFO 8505 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:04:22,418 INFO 8505 [egg:core] dump config after load, 3ms
+2019-10-30 12:04:22,439 INFO 8505 [egg-watcher:application] watcher start success
+2019-10-30 12:04:22,465 INFO 8505 [egg:core] dump config after ready, 3ms
+2019-10-30 12:05:59,751 INFO 8562 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:05:59,787 INFO 8562 [egg-multipart] stream mode enable
+2019-10-30 12:06:00,039 INFO 8562 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:06:00,040 INFO 8562 [egg-security] use methodnoallow middleware
+2019-10-30 12:06:00,040 INFO 8562 [egg-security] use noopen middleware
+2019-10-30 12:06:00,041 INFO 8562 [egg-security] use nosniff middleware
+2019-10-30 12:06:00,041 INFO 8562 [egg-security] use xssProtection middleware
+2019-10-30 12:06:00,041 INFO 8562 [egg-security] use xframe middleware
+2019-10-30 12:06:00,041 INFO 8562 [egg-security] use dta middleware
+2019-10-30 12:06:00,041 INFO 8562 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:06:00,047 INFO 8562 [egg:core] dump config after load, 4ms
+2019-10-30 12:06:00,068 INFO 8562 [egg-watcher:application] watcher start success
+2019-10-30 12:06:00,088 INFO 8562 [egg:core] dump config after ready, 4ms
+2019-10-30 12:06:16,569 INFO 8590 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:06:16,612 INFO 8590 [egg-multipart] stream mode enable
+2019-10-30 12:06:16,824 INFO 8590 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:06:16,825 INFO 8590 [egg-security] use methodnoallow middleware
+2019-10-30 12:06:16,825 INFO 8590 [egg-security] use noopen middleware
+2019-10-30 12:06:16,826 INFO 8590 [egg-security] use nosniff middleware
+2019-10-30 12:06:16,826 INFO 8590 [egg-security] use xssProtection middleware
+2019-10-30 12:06:16,826 INFO 8590 [egg-security] use xframe middleware
+2019-10-30 12:06:16,826 INFO 8590 [egg-security] use dta middleware
+2019-10-30 12:06:16,826 INFO 8590 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:06:16,832 INFO 8590 [egg:core] dump config after load, 4ms
+2019-10-30 12:06:16,852 INFO 8590 [egg-watcher:application] watcher start success
+2019-10-30 12:06:16,871 INFO 8590 [egg:core] dump config after ready, 3ms
+2019-10-30 12:10:33,667 INFO 9055 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:10:33,687 INFO 9055 [egg-multipart] stream mode enable
+2019-10-30 12:10:33,833 INFO 9055 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:10:33,834 INFO 9055 [egg-security] use methodnoallow middleware
+2019-10-30 12:10:33,835 INFO 9055 [egg-security] use noopen middleware
+2019-10-30 12:10:33,835 INFO 9055 [egg-security] use nosniff middleware
+2019-10-30 12:10:33,835 INFO 9055 [egg-security] use xssProtection middleware
+2019-10-30 12:10:33,835 INFO 9055 [egg-security] use xframe middleware
+2019-10-30 12:10:33,835 INFO 9055 [egg-security] use dta middleware
+2019-10-30 12:10:33,835 INFO 9055 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:10:33,841 INFO 9055 [egg:core] dump config after load, 3ms
+2019-10-30 12:10:33,861 INFO 9055 [egg-watcher:application] watcher start success
+2019-10-30 12:10:33,879 INFO 9055 [egg:core] dump config after ready, 3ms
+2019-10-30 12:13:08,073 ERROR 9055 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'insertNewRecords' of undefined
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:20:22)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Socket.socket.on.args (/home/superman/project/eggjs-demo/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:104:23)
+    at Socket.emit (events.js:198:13)
+    at /home/superman/project/eggjs-demo/node_modules/_socket.io@2.3.0@socket.io/lib/socket.js:528:12
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 9055
+hostname: archlinux
+
+2019-10-30 12:14:50,069 INFO 9218 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:14:50,103 INFO 9218 [egg-multipart] stream mode enable
+2019-10-30 12:14:50,434 INFO 9218 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:14:50,436 INFO 9218 [egg-security] use methodnoallow middleware
+2019-10-30 12:14:50,437 INFO 9218 [egg-security] use noopen middleware
+2019-10-30 12:14:50,437 INFO 9218 [egg-security] use nosniff middleware
+2019-10-30 12:14:50,437 INFO 9218 [egg-security] use xssProtection middleware
+2019-10-30 12:14:50,437 INFO 9218 [egg-security] use xframe middleware
+2019-10-30 12:14:50,438 INFO 9218 [egg-security] use dta middleware
+2019-10-30 12:14:50,438 INFO 9218 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:14:50,452 INFO 9218 [egg:core] dump config after load, 4ms
+2019-10-30 12:14:50,493 INFO 9218 [egg-watcher:application] watcher start success
+2019-10-30 12:14:50,537 INFO 9218 [egg:core] dump config after ready, 5ms
+2019-10-30 12:15:44,730 INFO 9253 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:15:44,751 INFO 9253 [egg-multipart] stream mode enable
+2019-10-30 12:15:44,903 INFO 9253 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:15:44,904 INFO 9253 [egg-security] use methodnoallow middleware
+2019-10-30 12:15:44,905 INFO 9253 [egg-security] use noopen middleware
+2019-10-30 12:15:44,905 INFO 9253 [egg-security] use nosniff middleware
+2019-10-30 12:15:44,905 INFO 9253 [egg-security] use xssProtection middleware
+2019-10-30 12:15:44,905 INFO 9253 [egg-security] use xframe middleware
+2019-10-30 12:15:44,905 INFO 9253 [egg-security] use dta middleware
+2019-10-30 12:15:44,905 INFO 9253 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:15:44,911 INFO 9253 [egg:core] dump config after load, 4ms
+2019-10-30 12:15:44,936 INFO 9253 [egg-watcher:application] watcher start success
+2019-10-30 12:15:44,956 INFO 9253 [egg:core] dump config after ready, 4ms
+2019-10-30 12:15:45,534 INFO 9268 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:15:45,570 INFO 9268 [egg-multipart] stream mode enable
+2019-10-30 12:15:45,855 INFO 9268 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:15:45,861 INFO 9268 [egg-security] use methodnoallow middleware
+2019-10-30 12:15:45,861 INFO 9268 [egg-security] use noopen middleware
+2019-10-30 12:15:45,862 INFO 9268 [egg-security] use nosniff middleware
+2019-10-30 12:15:45,862 INFO 9268 [egg-security] use xssProtection middleware
+2019-10-30 12:15:45,862 INFO 9268 [egg-security] use xframe middleware
+2019-10-30 12:15:45,862 INFO 9268 [egg-security] use dta middleware
+2019-10-30 12:15:45,862 INFO 9268 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:15:45,868 INFO 9268 [egg:core] dump config after load, 4ms
+2019-10-30 12:15:45,901 INFO 9268 [egg-watcher:application] watcher start success
+2019-10-30 12:15:45,929 INFO 9268 [egg:core] dump config after ready, 6ms
+2019-10-30 12:15:54,820 INFO 9291 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:15:54,856 INFO 9291 [egg-multipart] stream mode enable
+2019-10-30 12:15:55,152 INFO 9291 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:15:55,154 INFO 9291 [egg-security] use methodnoallow middleware
+2019-10-30 12:15:55,154 INFO 9291 [egg-security] use noopen middleware
+2019-10-30 12:15:55,154 INFO 9291 [egg-security] use nosniff middleware
+2019-10-30 12:15:55,154 INFO 9291 [egg-security] use xssProtection middleware
+2019-10-30 12:15:55,154 INFO 9291 [egg-security] use xframe middleware
+2019-10-30 12:15:55,155 INFO 9291 [egg-security] use dta middleware
+2019-10-30 12:15:55,155 INFO 9291 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:15:55,168 INFO 9291 [egg:core] dump config after load, 5ms
+2019-10-30 12:15:55,212 INFO 9291 [egg-watcher:application] watcher start success
+2019-10-30 12:15:55,262 INFO 9291 [egg:core] dump config after ready, 9ms
+2019-10-30 12:27:22,414 INFO 9579 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:27:22,434 INFO 9579 [egg-multipart] stream mode enable
+2019-10-30 12:27:22,577 INFO 9579 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:27:22,578 INFO 9579 [egg-security] use methodnoallow middleware
+2019-10-30 12:27:22,578 INFO 9579 [egg-security] use noopen middleware
+2019-10-30 12:27:22,578 INFO 9579 [egg-security] use nosniff middleware
+2019-10-30 12:27:22,579 INFO 9579 [egg-security] use xssProtection middleware
+2019-10-30 12:27:22,579 INFO 9579 [egg-security] use xframe middleware
+2019-10-30 12:27:22,579 INFO 9579 [egg-security] use dta middleware
+2019-10-30 12:27:22,579 INFO 9579 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:27:22,584 INFO 9579 [egg:core] dump config after load, 3ms
+2019-10-30 12:27:22,605 INFO 9579 [egg-watcher:application] watcher start success
+2019-10-30 12:27:22,624 INFO 9579 [egg:core] dump config after ready, 4ms
+2019-10-30 12:27:22,979 INFO 9591 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:27:22,999 INFO 9591 [egg-multipart] stream mode enable
+2019-10-30 12:27:23,162 INFO 9591 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:27:23,163 INFO 9591 [egg-security] use methodnoallow middleware
+2019-10-30 12:27:23,164 INFO 9591 [egg-security] use noopen middleware
+2019-10-30 12:27:23,164 INFO 9591 [egg-security] use nosniff middleware
+2019-10-30 12:27:23,164 INFO 9591 [egg-security] use xssProtection middleware
+2019-10-30 12:27:23,164 INFO 9591 [egg-security] use xframe middleware
+2019-10-30 12:27:23,164 INFO 9591 [egg-security] use dta middleware
+2019-10-30 12:27:23,164 INFO 9591 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:27:23,170 INFO 9591 [egg:core] dump config after load, 4ms
+2019-10-30 12:27:23,190 INFO 9591 [egg-watcher:application] watcher start success
+2019-10-30 12:27:23,217 INFO 9591 [egg:core] dump config after ready, 4ms
+2019-10-30 12:30:15,470 INFO 9645 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:30:15,496 INFO 9645 [egg-multipart] stream mode enable
+2019-10-30 12:30:15,709 INFO 9645 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:30:15,710 INFO 9645 [egg-security] use methodnoallow middleware
+2019-10-30 12:30:15,711 INFO 9645 [egg-security] use noopen middleware
+2019-10-30 12:30:15,711 INFO 9645 [egg-security] use nosniff middleware
+2019-10-30 12:30:15,711 INFO 9645 [egg-security] use xssProtection middleware
+2019-10-30 12:30:15,711 INFO 9645 [egg-security] use xframe middleware
+2019-10-30 12:30:15,711 INFO 9645 [egg-security] use dta middleware
+2019-10-30 12:30:15,711 INFO 9645 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:30:15,717 INFO 9645 [egg:core] dump config after load, 4ms
+2019-10-30 12:30:15,743 INFO 9645 [egg-watcher:application] watcher start success
+2019-10-30 12:30:15,768 INFO 9645 [egg:core] dump config after ready, 4ms
+2019-10-30 12:30:16,277 INFO 9656 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:30:16,313 INFO 9656 [egg-multipart] stream mode enable
+2019-10-30 12:30:16,559 INFO 9656 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:30:16,560 INFO 9656 [egg-security] use methodnoallow middleware
+2019-10-30 12:30:16,561 INFO 9656 [egg-security] use noopen middleware
+2019-10-30 12:30:16,561 INFO 9656 [egg-security] use nosniff middleware
+2019-10-30 12:30:16,561 INFO 9656 [egg-security] use xssProtection middleware
+2019-10-30 12:30:16,561 INFO 9656 [egg-security] use xframe middleware
+2019-10-30 12:30:16,561 INFO 9656 [egg-security] use dta middleware
+2019-10-30 12:30:16,562 INFO 9656 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:30:16,567 INFO 9656 [egg:core] dump config after load, 3ms
+2019-10-30 12:30:16,602 INFO 9656 [egg-watcher:application] watcher start success
+2019-10-30 12:30:16,635 INFO 9656 [egg:core] dump config after ready, 4ms
+2019-10-30 12:31:41,340 INFO 9692 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:31:41,376 INFO 9692 [egg-multipart] stream mode enable
+2019-10-30 12:31:41,583 INFO 9692 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:31:41,584 INFO 9692 [egg-security] use methodnoallow middleware
+2019-10-30 12:31:41,584 INFO 9692 [egg-security] use noopen middleware
+2019-10-30 12:31:41,585 INFO 9692 [egg-security] use nosniff middleware
+2019-10-30 12:31:41,585 INFO 9692 [egg-security] use xssProtection middleware
+2019-10-30 12:31:41,585 INFO 9692 [egg-security] use xframe middleware
+2019-10-30 12:31:41,585 INFO 9692 [egg-security] use dta middleware
+2019-10-30 12:31:41,585 INFO 9692 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:31:41,590 INFO 9692 [egg:core] dump config after load, 3ms
+2019-10-30 12:31:41,615 INFO 9692 [egg-watcher:application] watcher start success
+2019-10-30 12:31:41,641 INFO 9692 [egg:core] dump config after ready, 3ms
+2019-10-30 12:31:42,005 INFO 9703 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:31:42,025 INFO 9703 [egg-multipart] stream mode enable
+2019-10-30 12:31:42,180 INFO 9703 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:31:42,182 INFO 9703 [egg-security] use methodnoallow middleware
+2019-10-30 12:31:42,182 INFO 9703 [egg-security] use noopen middleware
+2019-10-30 12:31:42,183 INFO 9703 [egg-security] use nosniff middleware
+2019-10-30 12:31:42,183 INFO 9703 [egg-security] use xssProtection middleware
+2019-10-30 12:31:42,183 INFO 9703 [egg-security] use xframe middleware
+2019-10-30 12:31:42,183 INFO 9703 [egg-security] use dta middleware
+2019-10-30 12:31:42,183 INFO 9703 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:31:42,203 INFO 9703 [egg:core] dump config after load, 12ms
+2019-10-30 12:31:42,241 INFO 9703 [egg-watcher:application] watcher start success
+2019-10-30 12:31:42,266 INFO 9703 [egg:core] dump config after ready, 3ms
+2019-10-30 12:32:05,232 INFO 9729 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:32:05,259 INFO 9729 [egg-multipart] stream mode enable
+2019-10-30 12:32:05,454 INFO 9729 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:32:05,455 INFO 9729 [egg-security] use methodnoallow middleware
+2019-10-30 12:32:05,456 INFO 9729 [egg-security] use noopen middleware
+2019-10-30 12:32:05,457 INFO 9729 [egg-security] use nosniff middleware
+2019-10-30 12:32:05,459 INFO 9729 [egg-security] use xssProtection middleware
+2019-10-30 12:32:05,460 INFO 9729 [egg-security] use xframe middleware
+2019-10-30 12:32:05,461 INFO 9729 [egg-security] use dta middleware
+2019-10-30 12:32:05,461 INFO 9729 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:32:05,470 INFO 9729 [egg:core] dump config after load, 4ms
+2019-10-30 12:32:05,514 INFO 9729 [egg-watcher:application] watcher start success
+2019-10-30 12:32:05,550 INFO 9729 [egg:core] dump config after ready, 3ms
+2019-10-30 12:32:06,003 INFO 9740 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:32:06,030 INFO 9740 [egg-multipart] stream mode enable
+2019-10-30 12:32:06,251 INFO 9740 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:32:06,255 INFO 9740 [egg-security] use methodnoallow middleware
+2019-10-30 12:32:06,257 INFO 9740 [egg-security] use noopen middleware
+2019-10-30 12:32:06,258 INFO 9740 [egg-security] use nosniff middleware
+2019-10-30 12:32:06,258 INFO 9740 [egg-security] use xssProtection middleware
+2019-10-30 12:32:06,258 INFO 9740 [egg-security] use xframe middleware
+2019-10-30 12:32:06,258 INFO 9740 [egg-security] use dta middleware
+2019-10-30 12:32:06,258 INFO 9740 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:32:06,264 INFO 9740 [egg:core] dump config after load, 4ms
+2019-10-30 12:32:06,294 INFO 9740 [egg-watcher:application] watcher start success
+2019-10-30 12:32:06,322 INFO 9740 [egg:core] dump config after ready, 6ms
+2019-10-30 12:41:49,197 INFO 10058 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:41:49,221 INFO 10058 [egg-multipart] stream mode enable
+2019-10-30 12:41:49,370 INFO 10058 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:41:49,371 INFO 10058 [egg-security] use methodnoallow middleware
+2019-10-30 12:41:49,371 INFO 10058 [egg-security] use noopen middleware
+2019-10-30 12:41:49,371 INFO 10058 [egg-security] use nosniff middleware
+2019-10-30 12:41:49,372 INFO 10058 [egg-security] use xssProtection middleware
+2019-10-30 12:41:49,372 INFO 10058 [egg-security] use xframe middleware
+2019-10-30 12:41:49,372 INFO 10058 [egg-security] use dta middleware
+2019-10-30 12:41:49,372 INFO 10058 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:41:49,377 INFO 10058 [egg:core] dump config after load, 3ms
+2019-10-30 12:41:49,397 INFO 10058 [egg-watcher:application] watcher start success
+2019-10-30 12:41:49,433 INFO 10058 [egg:core] dump config after ready, 4ms
+2019-10-30 12:41:49,768 INFO 10070 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:41:49,788 INFO 10070 [egg-multipart] stream mode enable
+2019-10-30 12:41:49,940 INFO 10070 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:41:49,941 INFO 10070 [egg-security] use methodnoallow middleware
+2019-10-30 12:41:49,942 INFO 10070 [egg-security] use noopen middleware
+2019-10-30 12:41:49,942 INFO 10070 [egg-security] use nosniff middleware
+2019-10-30 12:41:49,942 INFO 10070 [egg-security] use xssProtection middleware
+2019-10-30 12:41:49,942 INFO 10070 [egg-security] use xframe middleware
+2019-10-30 12:41:49,942 INFO 10070 [egg-security] use dta middleware
+2019-10-30 12:41:49,942 INFO 10070 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:41:49,948 INFO 10070 [egg:core] dump config after load, 4ms
+2019-10-30 12:41:49,969 INFO 10070 [egg-watcher:application] watcher start success
+2019-10-30 12:41:49,993 INFO 10070 [egg:core] dump config after ready, 4ms
+2019-10-30 12:43:57,021 INFO 10146 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:43:57,059 INFO 10146 [egg-multipart] stream mode enable
+2019-10-30 12:43:57,350 INFO 10146 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:43:57,352 INFO 10146 [egg-security] use methodnoallow middleware
+2019-10-30 12:43:57,352 INFO 10146 [egg-security] use noopen middleware
+2019-10-30 12:43:57,352 INFO 10146 [egg-security] use nosniff middleware
+2019-10-30 12:43:57,353 INFO 10146 [egg-security] use xssProtection middleware
+2019-10-30 12:43:57,353 INFO 10146 [egg-security] use xframe middleware
+2019-10-30 12:43:57,353 INFO 10146 [egg-security] use dta middleware
+2019-10-30 12:43:57,353 INFO 10146 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:43:57,366 INFO 10146 [egg:core] dump config after load, 11ms
+2019-10-30 12:43:57,402 INFO 10146 [egg-watcher:application] watcher start success
+2019-10-30 12:43:57,438 INFO 10146 [egg:core] dump config after ready, 3ms
+2019-10-30 12:51:32,765 INFO 10292 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:51:32,786 INFO 10292 [egg-multipart] stream mode enable
+2019-10-30 12:51:32,936 INFO 10292 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:51:32,937 INFO 10292 [egg-security] use methodnoallow middleware
+2019-10-30 12:51:32,937 INFO 10292 [egg-security] use noopen middleware
+2019-10-30 12:51:32,938 INFO 10292 [egg-security] use nosniff middleware
+2019-10-30 12:51:32,938 INFO 10292 [egg-security] use xssProtection middleware
+2019-10-30 12:51:32,938 INFO 10292 [egg-security] use xframe middleware
+2019-10-30 12:51:32,938 INFO 10292 [egg-security] use dta middleware
+2019-10-30 12:51:32,938 INFO 10292 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:51:32,944 INFO 10292 [egg:core] dump config after load, 4ms
+2019-10-30 12:51:32,963 INFO 10292 [egg-watcher:application] watcher start success
+2019-10-30 12:51:32,983 INFO 10292 [egg:core] dump config after ready, 4ms
+2019-10-30 12:51:33,334 INFO 10304 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:51:33,360 INFO 10304 [egg-multipart] stream mode enable
+2019-10-30 12:51:33,507 INFO 10304 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:51:33,513 INFO 10304 [egg-security] use methodnoallow middleware
+2019-10-30 12:51:33,513 INFO 10304 [egg-security] use noopen middleware
+2019-10-30 12:51:33,514 INFO 10304 [egg-security] use nosniff middleware
+2019-10-30 12:51:33,514 INFO 10304 [egg-security] use xssProtection middleware
+2019-10-30 12:51:33,514 INFO 10304 [egg-security] use xframe middleware
+2019-10-30 12:51:33,515 INFO 10304 [egg-security] use dta middleware
+2019-10-30 12:51:33,515 INFO 10304 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:51:33,520 INFO 10304 [egg:core] dump config after load, 3ms
+2019-10-30 12:51:33,542 INFO 10304 [egg-watcher:application] watcher start success
+2019-10-30 12:51:33,560 INFO 10304 [egg:core] dump config after ready, 3ms
+2019-10-30 12:52:09,351 INFO 10335 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:52:09,368 INFO 10335 [egg-multipart] stream mode enable
+2019-10-30 12:52:09,520 INFO 10335 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:52:09,522 INFO 10335 [egg-security] use methodnoallow middleware
+2019-10-30 12:52:09,522 INFO 10335 [egg-security] use noopen middleware
+2019-10-30 12:52:09,522 INFO 10335 [egg-security] use nosniff middleware
+2019-10-30 12:52:09,522 INFO 10335 [egg-security] use xssProtection middleware
+2019-10-30 12:52:09,522 INFO 10335 [egg-security] use xframe middleware
+2019-10-30 12:52:09,523 INFO 10335 [egg-security] use dta middleware
+2019-10-30 12:52:09,523 INFO 10335 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:52:09,528 INFO 10335 [egg:core] dump config after load, 3ms
+2019-10-30 12:52:09,550 INFO 10335 [egg-watcher:application] watcher start success
+2019-10-30 12:52:09,569 INFO 10335 [egg:core] dump config after ready, 4ms
+2019-10-30 12:52:09,912 INFO 10346 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 12:52:09,929 INFO 10346 [egg-multipart] stream mode enable
+2019-10-30 12:52:10,080 INFO 10346 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 12:52:10,081 INFO 10346 [egg-security] use methodnoallow middleware
+2019-10-30 12:52:10,081 INFO 10346 [egg-security] use noopen middleware
+2019-10-30 12:52:10,082 INFO 10346 [egg-security] use nosniff middleware
+2019-10-30 12:52:10,082 INFO 10346 [egg-security] use xssProtection middleware
+2019-10-30 12:52:10,082 INFO 10346 [egg-security] use xframe middleware
+2019-10-30 12:52:10,082 INFO 10346 [egg-security] use dta middleware
+2019-10-30 12:52:10,082 INFO 10346 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 12:52:10,088 INFO 10346 [egg:core] dump config after load, 4ms
+2019-10-30 12:52:10,109 INFO 10346 [egg-watcher:application] watcher start success
+2019-10-30 12:52:10,128 INFO 10346 [egg:core] dump config after ready, 4ms
+2019-10-30 13:03:38,729 INFO 10687 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:03:38,750 INFO 10687 [egg-multipart] stream mode enable
+2019-10-30 13:03:38,902 INFO 10687 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:03:38,904 INFO 10687 [egg-security] use methodnoallow middleware
+2019-10-30 13:03:38,904 INFO 10687 [egg-security] use noopen middleware
+2019-10-30 13:03:38,904 INFO 10687 [egg-security] use nosniff middleware
+2019-10-30 13:03:38,904 INFO 10687 [egg-security] use xssProtection middleware
+2019-10-30 13:03:38,904 INFO 10687 [egg-security] use xframe middleware
+2019-10-30 13:03:38,905 INFO 10687 [egg-security] use dta middleware
+2019-10-30 13:03:38,905 INFO 10687 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:03:38,910 INFO 10687 [egg:core] dump config after load, 3ms
+2019-10-30 13:03:38,937 INFO 10687 [egg-watcher:application] watcher start success
+2019-10-30 13:03:38,957 INFO 10687 [egg:core] dump config after ready, 4ms
+2019-10-30 13:03:39,310 INFO 10699 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:03:39,336 INFO 10699 [egg-multipart] stream mode enable
+2019-10-30 13:03:39,522 INFO 10699 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:03:39,523 INFO 10699 [egg-security] use methodnoallow middleware
+2019-10-30 13:03:39,523 INFO 10699 [egg-security] use noopen middleware
+2019-10-30 13:03:39,523 INFO 10699 [egg-security] use nosniff middleware
+2019-10-30 13:03:39,524 INFO 10699 [egg-security] use xssProtection middleware
+2019-10-30 13:03:39,524 INFO 10699 [egg-security] use xframe middleware
+2019-10-30 13:03:39,524 INFO 10699 [egg-security] use dta middleware
+2019-10-30 13:03:39,524 INFO 10699 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:03:39,529 INFO 10699 [egg:core] dump config after load, 3ms
+2019-10-30 13:03:39,550 INFO 10699 [egg-watcher:application] watcher start success
+2019-10-30 13:03:39,568 INFO 10699 [egg:core] dump config after ready, 3ms
+2019-10-30 13:28:25,389 INFO 11113 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:28:25,415 INFO 11113 [egg-multipart] stream mode enable
+2019-10-30 13:28:25,632 INFO 11113 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:28:25,633 INFO 11113 [egg-security] use methodnoallow middleware
+2019-10-30 13:28:25,633 INFO 11113 [egg-security] use noopen middleware
+2019-10-30 13:28:25,633 INFO 11113 [egg-security] use nosniff middleware
+2019-10-30 13:28:25,634 INFO 11113 [egg-security] use xssProtection middleware
+2019-10-30 13:28:25,634 INFO 11113 [egg-security] use xframe middleware
+2019-10-30 13:28:25,634 INFO 11113 [egg-security] use dta middleware
+2019-10-30 13:28:25,634 INFO 11113 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:28:25,639 INFO 11113 [egg:core] dump config after load, 3ms
+2019-10-30 13:28:25,664 INFO 11113 [egg-watcher:application] watcher start success
+2019-10-30 13:28:25,689 INFO 11113 [egg:core] dump config after ready, 3ms
+2019-10-30 13:28:26,137 INFO 11125 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:28:26,162 INFO 11125 [egg-multipart] stream mode enable
+2019-10-30 13:28:26,344 INFO 11125 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:28:26,345 INFO 11125 [egg-security] use methodnoallow middleware
+2019-10-30 13:28:26,345 INFO 11125 [egg-security] use noopen middleware
+2019-10-30 13:28:26,346 INFO 11125 [egg-security] use nosniff middleware
+2019-10-30 13:28:26,346 INFO 11125 [egg-security] use xssProtection middleware
+2019-10-30 13:28:26,346 INFO 11125 [egg-security] use xframe middleware
+2019-10-30 13:28:26,346 INFO 11125 [egg-security] use dta middleware
+2019-10-30 13:28:26,346 INFO 11125 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:28:26,352 INFO 11125 [egg:core] dump config after load, 4ms
+2019-10-30 13:28:26,377 INFO 11125 [egg-watcher:application] watcher start success
+2019-10-30 13:28:26,403 INFO 11125 [egg:core] dump config after ready, 4ms
+2019-10-30 13:30:47,396 INFO 11203 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:30:47,416 INFO 11203 [egg-multipart] stream mode enable
+2019-10-30 13:30:47,562 INFO 11203 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:30:47,564 INFO 11203 [egg-security] use methodnoallow middleware
+2019-10-30 13:30:47,564 INFO 11203 [egg-security] use noopen middleware
+2019-10-30 13:30:47,564 INFO 11203 [egg-security] use nosniff middleware
+2019-10-30 13:30:47,564 INFO 11203 [egg-security] use xssProtection middleware
+2019-10-30 13:30:47,565 INFO 11203 [egg-security] use xframe middleware
+2019-10-30 13:30:47,565 INFO 11203 [egg-security] use dta middleware
+2019-10-30 13:30:47,565 INFO 11203 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:30:47,570 INFO 11203 [egg:core] dump config after load, 3ms
+2019-10-30 13:30:47,592 INFO 11203 [egg-watcher:application] watcher start success
+2019-10-30 13:30:47,611 INFO 11203 [egg:core] dump config after ready, 3ms
+2019-10-30 13:30:47,960 INFO 11214 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:30:47,980 INFO 11214 [egg-multipart] stream mode enable
+2019-10-30 13:30:48,121 INFO 11214 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:30:48,123 INFO 11214 [egg-security] use methodnoallow middleware
+2019-10-30 13:30:48,123 INFO 11214 [egg-security] use noopen middleware
+2019-10-30 13:30:48,123 INFO 11214 [egg-security] use nosniff middleware
+2019-10-30 13:30:48,123 INFO 11214 [egg-security] use xssProtection middleware
+2019-10-30 13:30:48,124 INFO 11214 [egg-security] use xframe middleware
+2019-10-30 13:30:48,124 INFO 11214 [egg-security] use dta middleware
+2019-10-30 13:30:48,124 INFO 11214 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:30:48,129 INFO 11214 [egg:core] dump config after load, 3ms
+2019-10-30 13:30:48,150 INFO 11214 [egg-watcher:application] watcher start success
+2019-10-30 13:30:48,169 INFO 11214 [egg:core] dump config after ready, 4ms
+2019-10-30 13:31:07,505 INFO 11291 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:31:07,525 INFO 11291 [egg-multipart] stream mode enable
+2019-10-30 13:31:07,674 INFO 11291 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:31:07,675 INFO 11291 [egg-security] use methodnoallow middleware
+2019-10-30 13:31:07,675 INFO 11291 [egg-security] use noopen middleware
+2019-10-30 13:31:07,676 INFO 11291 [egg-security] use nosniff middleware
+2019-10-30 13:31:07,676 INFO 11291 [egg-security] use xssProtection middleware
+2019-10-30 13:31:07,676 INFO 11291 [egg-security] use xframe middleware
+2019-10-30 13:31:07,676 INFO 11291 [egg-security] use dta middleware
+2019-10-30 13:31:07,676 INFO 11291 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:31:07,682 INFO 11291 [egg:core] dump config after load, 4ms
+2019-10-30 13:31:07,703 INFO 11291 [egg-watcher:application] watcher start success
+2019-10-30 13:31:07,721 INFO 11291 [egg:core] dump config after ready, 3ms
+2019-10-30 13:31:08,377 ERROR 11291 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'emit' of undefined
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:31:10)
+
+pid: 11291
+hostname: archlinux
+
+2019-10-30 13:36:21,751 INFO 11529 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:36:21,771 INFO 11529 [egg-multipart] stream mode enable
+2019-10-30 13:36:21,922 INFO 11529 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:36:21,924 INFO 11529 [egg-security] use methodnoallow middleware
+2019-10-30 13:36:21,924 INFO 11529 [egg-security] use noopen middleware
+2019-10-30 13:36:21,924 INFO 11529 [egg-security] use nosniff middleware
+2019-10-30 13:36:21,924 INFO 11529 [egg-security] use xssProtection middleware
+2019-10-30 13:36:21,924 INFO 11529 [egg-security] use xframe middleware
+2019-10-30 13:36:21,925 INFO 11529 [egg-security] use dta middleware
+2019-10-30 13:36:21,925 INFO 11529 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:36:21,930 INFO 11529 [egg:core] dump config after load, 3ms
+2019-10-30 13:36:21,951 INFO 11529 [egg-watcher:application] watcher start success
+2019-10-30 13:36:21,975 INFO 11529 [egg:core] dump config after ready, 3ms
+2019-10-30 13:36:22,330 INFO 11540 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:36:22,350 INFO 11540 [egg-multipart] stream mode enable
+2019-10-30 13:36:22,505 INFO 11540 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:36:22,506 INFO 11540 [egg-security] use methodnoallow middleware
+2019-10-30 13:36:22,506 INFO 11540 [egg-security] use noopen middleware
+2019-10-30 13:36:22,506 INFO 11540 [egg-security] use nosniff middleware
+2019-10-30 13:36:22,507 INFO 11540 [egg-security] use xssProtection middleware
+2019-10-30 13:36:22,507 INFO 11540 [egg-security] use xframe middleware
+2019-10-30 13:36:22,507 INFO 11540 [egg-security] use dta middleware
+2019-10-30 13:36:22,507 INFO 11540 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:36:22,512 INFO 11540 [egg:core] dump config after load, 3ms
+2019-10-30 13:36:22,534 INFO 11540 [egg-watcher:application] watcher start success
+2019-10-30 13:36:22,552 INFO 11540 [egg:core] dump config after ready, 3ms
+2019-10-30 13:36:31,091 ERROR 11540 nodejs.ReferenceError: [egg-socket.io] controller execute error: sequelize is not defined
+    at ChatService.searchRecordsByFromTo (/home/superman/project/eggjs-demo/app/service/chat.js:89:11)
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:22:36)
+
+pid: 11540
+hostname: archlinux
+
+2019-10-30 13:36:47,676 INFO 11561 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:36:47,696 INFO 11561 [egg-multipart] stream mode enable
+2019-10-30 13:36:47,841 INFO 11561 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:36:47,843 INFO 11561 [egg-security] use methodnoallow middleware
+2019-10-30 13:36:47,843 INFO 11561 [egg-security] use noopen middleware
+2019-10-30 13:36:47,843 INFO 11561 [egg-security] use nosniff middleware
+2019-10-30 13:36:47,843 INFO 11561 [egg-security] use xssProtection middleware
+2019-10-30 13:36:47,844 INFO 11561 [egg-security] use xframe middleware
+2019-10-30 13:36:47,844 INFO 11561 [egg-security] use dta middleware
+2019-10-30 13:36:47,844 INFO 11561 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:36:47,849 INFO 11561 [egg:core] dump config after load, 3ms
+2019-10-30 13:36:47,870 INFO 11561 [egg-watcher:application] watcher start success
+2019-10-30 13:36:47,896 INFO 11561 [egg:core] dump config after ready, 4ms
+2019-10-30 13:36:48,240 INFO 11572 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:36:48,260 INFO 11572 [egg-multipart] stream mode enable
+2019-10-30 13:36:48,409 INFO 11572 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:36:48,410 INFO 11572 [egg-security] use methodnoallow middleware
+2019-10-30 13:36:48,411 INFO 11572 [egg-security] use noopen middleware
+2019-10-30 13:36:48,411 INFO 11572 [egg-security] use nosniff middleware
+2019-10-30 13:36:48,411 INFO 11572 [egg-security] use xssProtection middleware
+2019-10-30 13:36:48,411 INFO 11572 [egg-security] use xframe middleware
+2019-10-30 13:36:48,411 INFO 11572 [egg-security] use dta middleware
+2019-10-30 13:36:48,411 INFO 11572 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:36:48,417 INFO 11572 [egg:core] dump config after load, 3ms
+2019-10-30 13:36:48,437 INFO 11572 [egg-watcher:application] watcher start success
+2019-10-30 13:36:48,456 INFO 11572 [egg:core] dump config after ready, 3ms
+2019-10-30 13:37:49,728 INFO 11622 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:37:49,750 INFO 11622 [egg-multipart] stream mode enable
+2019-10-30 13:37:49,900 INFO 11622 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:37:49,901 INFO 11622 [egg-security] use methodnoallow middleware
+2019-10-30 13:37:49,901 INFO 11622 [egg-security] use noopen middleware
+2019-10-30 13:37:49,902 INFO 11622 [egg-security] use nosniff middleware
+2019-10-30 13:37:49,902 INFO 11622 [egg-security] use xssProtection middleware
+2019-10-30 13:37:49,902 INFO 11622 [egg-security] use xframe middleware
+2019-10-30 13:37:49,902 INFO 11622 [egg-security] use dta middleware
+2019-10-30 13:37:49,902 INFO 11622 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:37:49,908 INFO 11622 [egg:core] dump config after load, 4ms
+2019-10-30 13:37:49,928 INFO 11622 [egg-watcher:application] watcher start success
+2019-10-30 13:37:49,948 INFO 11622 [egg:core] dump config after ready, 3ms
+2019-10-30 13:37:50,314 INFO 11633 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:37:50,340 INFO 11633 [egg-multipart] stream mode enable
+2019-10-30 13:37:50,641 INFO 11633 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:37:50,642 INFO 11633 [egg-security] use methodnoallow middleware
+2019-10-30 13:37:50,643 INFO 11633 [egg-security] use noopen middleware
+2019-10-30 13:37:50,643 INFO 11633 [egg-security] use nosniff middleware
+2019-10-30 13:37:50,643 INFO 11633 [egg-security] use xssProtection middleware
+2019-10-30 13:37:50,643 INFO 11633 [egg-security] use xframe middleware
+2019-10-30 13:37:50,643 INFO 11633 [egg-security] use dta middleware
+2019-10-30 13:37:50,643 INFO 11633 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:37:50,656 INFO 11633 [egg:core] dump config after load, 10ms
+2019-10-30 13:37:50,692 INFO 11633 [egg-watcher:application] watcher start success
+2019-10-30 13:37:50,729 INFO 11633 [egg:core] dump config after ready, 3ms
+2019-10-30 13:42:43,164 INFO 11753 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:42:43,186 INFO 11753 [egg-multipart] stream mode enable
+2019-10-30 13:42:43,357 INFO 11753 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:42:43,359 INFO 11753 [egg-security] use methodnoallow middleware
+2019-10-30 13:42:43,359 INFO 11753 [egg-security] use noopen middleware
+2019-10-30 13:42:43,359 INFO 11753 [egg-security] use nosniff middleware
+2019-10-30 13:42:43,359 INFO 11753 [egg-security] use xssProtection middleware
+2019-10-30 13:42:43,360 INFO 11753 [egg-security] use xframe middleware
+2019-10-30 13:42:43,360 INFO 11753 [egg-security] use dta middleware
+2019-10-30 13:42:43,360 INFO 11753 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:42:43,366 INFO 11753 [egg:core] dump config after load, 4ms
+2019-10-30 13:42:43,388 INFO 11753 [egg-watcher:application] watcher start success
+2019-10-30 13:42:43,412 INFO 11753 [egg:core] dump config after ready, 3ms
+2019-10-30 13:42:43,756 INFO 11764 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 13:42:43,776 INFO 11764 [egg-multipart] stream mode enable
+2019-10-30 13:42:43,923 INFO 11764 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 13:42:43,925 INFO 11764 [egg-security] use methodnoallow middleware
+2019-10-30 13:42:43,925 INFO 11764 [egg-security] use noopen middleware
+2019-10-30 13:42:43,925 INFO 11764 [egg-security] use nosniff middleware
+2019-10-30 13:42:43,925 INFO 11764 [egg-security] use xssProtection middleware
+2019-10-30 13:42:43,925 INFO 11764 [egg-security] use xframe middleware
+2019-10-30 13:42:43,926 INFO 11764 [egg-security] use dta middleware
+2019-10-30 13:42:43,926 INFO 11764 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 13:42:43,931 INFO 11764 [egg:core] dump config after load, 3ms
+2019-10-30 13:42:43,951 INFO 11764 [egg-watcher:application] watcher start success
+2019-10-30 13:42:43,970 INFO 11764 [egg:core] dump config after ready, 3ms
+2019-10-30 14:22:54,608 INFO 13110 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:22:54,628 INFO 13110 [egg-multipart] stream mode enable
+2019-10-30 14:22:54,778 INFO 13110 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:22:54,779 INFO 13110 [egg-security] use methodnoallow middleware
+2019-10-30 14:22:54,779 INFO 13110 [egg-security] use noopen middleware
+2019-10-30 14:22:54,780 INFO 13110 [egg-security] use nosniff middleware
+2019-10-30 14:22:54,780 INFO 13110 [egg-security] use xssProtection middleware
+2019-10-30 14:22:54,780 INFO 13110 [egg-security] use xframe middleware
+2019-10-30 14:22:54,780 INFO 13110 [egg-security] use dta middleware
+2019-10-30 14:22:54,780 INFO 13110 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:22:54,786 INFO 13110 [egg:core] dump config after load, 4ms
+2019-10-30 14:22:54,806 INFO 13110 [egg-watcher:application] watcher start success
+2019-10-30 14:22:54,826 INFO 13110 [egg:core] dump config after ready, 3ms
+2019-10-30 14:22:55,217 INFO 13121 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:22:55,242 INFO 13121 [egg-multipart] stream mode enable
+2019-10-30 14:22:55,386 INFO 13121 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:22:55,387 INFO 13121 [egg-security] use methodnoallow middleware
+2019-10-30 14:22:55,387 INFO 13121 [egg-security] use noopen middleware
+2019-10-30 14:22:55,388 INFO 13121 [egg-security] use nosniff middleware
+2019-10-30 14:22:55,388 INFO 13121 [egg-security] use xssProtection middleware
+2019-10-30 14:22:55,388 INFO 13121 [egg-security] use xframe middleware
+2019-10-30 14:22:55,388 INFO 13121 [egg-security] use dta middleware
+2019-10-30 14:22:55,388 INFO 13121 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:22:55,394 INFO 13121 [egg:core] dump config after load, 4ms
+2019-10-30 14:22:55,414 INFO 13121 [egg-watcher:application] watcher start success
+2019-10-30 14:22:55,435 INFO 13121 [egg:core] dump config after ready, 4ms
+2019-10-30 14:23:32,432 INFO 13145 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:23:32,455 INFO 13145 [egg-multipart] stream mode enable
+2019-10-30 14:23:32,642 INFO 13145 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:23:32,643 INFO 13145 [egg-security] use methodnoallow middleware
+2019-10-30 14:23:32,643 INFO 13145 [egg-security] use noopen middleware
+2019-10-30 14:23:32,643 INFO 13145 [egg-security] use nosniff middleware
+2019-10-30 14:23:32,644 INFO 13145 [egg-security] use xssProtection middleware
+2019-10-30 14:23:32,644 INFO 13145 [egg-security] use xframe middleware
+2019-10-30 14:23:32,644 INFO 13145 [egg-security] use dta middleware
+2019-10-30 14:23:32,644 INFO 13145 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:23:32,649 INFO 13145 [egg:core] dump config after load, 3ms
+2019-10-30 14:23:32,676 INFO 13145 [egg-watcher:application] watcher start success
+2019-10-30 14:23:32,699 INFO 13145 [egg:core] dump config after ready, 4ms
+2019-10-30 14:23:33,203 INFO 13156 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:23:33,238 INFO 13156 [egg-multipart] stream mode enable
+2019-10-30 14:23:33,515 INFO 13156 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:23:33,517 INFO 13156 [egg-security] use methodnoallow middleware
+2019-10-30 14:23:33,517 INFO 13156 [egg-security] use noopen middleware
+2019-10-30 14:23:33,517 INFO 13156 [egg-security] use nosniff middleware
+2019-10-30 14:23:33,517 INFO 13156 [egg-security] use xssProtection middleware
+2019-10-30 14:23:33,518 INFO 13156 [egg-security] use xframe middleware
+2019-10-30 14:23:33,518 INFO 13156 [egg-security] use dta middleware
+2019-10-30 14:23:33,518 INFO 13156 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:23:33,530 INFO 13156 [egg:core] dump config after load, 9ms
+2019-10-30 14:23:33,564 INFO 13156 [egg-watcher:application] watcher start success
+2019-10-30 14:23:33,601 INFO 13156 [egg:core] dump config after ready, 4ms
+2019-10-30 14:23:44,209 INFO 13234 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:23:44,234 INFO 13234 [egg-multipart] stream mode enable
+2019-10-30 14:23:44,382 INFO 13234 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:23:44,383 INFO 13234 [egg-security] use methodnoallow middleware
+2019-10-30 14:23:44,383 INFO 13234 [egg-security] use noopen middleware
+2019-10-30 14:23:44,383 INFO 13234 [egg-security] use nosniff middleware
+2019-10-30 14:23:44,384 INFO 13234 [egg-security] use xssProtection middleware
+2019-10-30 14:23:44,384 INFO 13234 [egg-security] use xframe middleware
+2019-10-30 14:23:44,384 INFO 13234 [egg-security] use dta middleware
+2019-10-30 14:23:44,384 INFO 13234 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:23:44,390 INFO 13234 [egg:core] dump config after load, 3ms
+2019-10-30 14:23:44,410 INFO 13234 [egg-watcher:application] watcher start success
+2019-10-30 14:23:44,429 INFO 13234 [egg:core] dump config after ready, 4ms
+2019-10-30 14:24:23,496 INFO 13262 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:24:23,524 INFO 13262 [egg-multipart] stream mode enable
+2019-10-30 14:24:23,711 INFO 13262 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:24:23,712 INFO 13262 [egg-security] use methodnoallow middleware
+2019-10-30 14:24:23,712 INFO 13262 [egg-security] use noopen middleware
+2019-10-30 14:24:23,713 INFO 13262 [egg-security] use nosniff middleware
+2019-10-30 14:24:23,713 INFO 13262 [egg-security] use xssProtection middleware
+2019-10-30 14:24:23,713 INFO 13262 [egg-security] use xframe middleware
+2019-10-30 14:24:23,713 INFO 13262 [egg-security] use dta middleware
+2019-10-30 14:24:23,713 INFO 13262 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:24:23,719 INFO 13262 [egg:core] dump config after load, 3ms
+2019-10-30 14:24:23,739 INFO 13262 [egg-watcher:application] watcher start success
+2019-10-30 14:24:23,758 INFO 13262 [egg:core] dump config after ready, 3ms
+2019-10-30 14:24:30,983 INFO 13354 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:24:31,003 INFO 13354 [egg-multipart] stream mode enable
+2019-10-30 14:24:31,156 INFO 13354 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:24:31,157 INFO 13354 [egg-security] use methodnoallow middleware
+2019-10-30 14:24:31,157 INFO 13354 [egg-security] use noopen middleware
+2019-10-30 14:24:31,158 INFO 13354 [egg-security] use nosniff middleware
+2019-10-30 14:24:31,158 INFO 13354 [egg-security] use xssProtection middleware
+2019-10-30 14:24:31,158 INFO 13354 [egg-security] use xframe middleware
+2019-10-30 14:24:31,158 INFO 13354 [egg-security] use dta middleware
+2019-10-30 14:24:31,158 INFO 13354 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:24:31,164 INFO 13354 [egg:core] dump config after load, 4ms
+2019-10-30 14:24:31,183 INFO 13354 [egg-watcher:application] watcher start success
+2019-10-30 14:24:31,202 INFO 13354 [egg:core] dump config after ready, 3ms
+2019-10-30 14:26:38,678 INFO 13720 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:26:38,700 INFO 13720 [egg-multipart] stream mode enable
+2019-10-30 14:26:38,850 INFO 13720 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:26:38,851 INFO 13720 [egg-security] use methodnoallow middleware
+2019-10-30 14:26:38,851 INFO 13720 [egg-security] use noopen middleware
+2019-10-30 14:26:38,852 INFO 13720 [egg-security] use nosniff middleware
+2019-10-30 14:26:38,852 INFO 13720 [egg-security] use xssProtection middleware
+2019-10-30 14:26:38,852 INFO 13720 [egg-security] use xframe middleware
+2019-10-30 14:26:38,852 INFO 13720 [egg-security] use dta middleware
+2019-10-30 14:26:38,852 INFO 13720 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:26:38,858 INFO 13720 [egg:core] dump config after load, 4ms
+2019-10-30 14:26:38,884 INFO 13720 [egg-watcher:application] watcher start success
+2019-10-30 14:26:38,904 INFO 13720 [egg:core] dump config after ready, 3ms
+2019-10-30 14:26:39,270 INFO 13731 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:26:39,290 INFO 13731 [egg-multipart] stream mode enable
+2019-10-30 14:26:39,442 INFO 13731 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:26:39,443 INFO 13731 [egg-security] use methodnoallow middleware
+2019-10-30 14:26:39,444 INFO 13731 [egg-security] use noopen middleware
+2019-10-30 14:26:39,444 INFO 13731 [egg-security] use nosniff middleware
+2019-10-30 14:26:39,444 INFO 13731 [egg-security] use xssProtection middleware
+2019-10-30 14:26:39,444 INFO 13731 [egg-security] use xframe middleware
+2019-10-30 14:26:39,444 INFO 13731 [egg-security] use dta middleware
+2019-10-30 14:26:39,444 INFO 13731 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:26:39,450 INFO 13731 [egg:core] dump config after load, 4ms
+2019-10-30 14:26:39,471 INFO 13731 [egg-watcher:application] watcher start success
+2019-10-30 14:26:39,489 INFO 13731 [egg:core] dump config after ready, 3ms
+2019-10-30 14:26:42,053 INFO 13748 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:26:42,072 INFO 13748 [egg-multipart] stream mode enable
+2019-10-30 14:26:42,239 INFO 13748 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:26:42,240 INFO 13748 [egg-security] use methodnoallow middleware
+2019-10-30 14:26:42,240 INFO 13748 [egg-security] use noopen middleware
+2019-10-30 14:26:42,241 INFO 13748 [egg-security] use nosniff middleware
+2019-10-30 14:26:42,241 INFO 13748 [egg-security] use xssProtection middleware
+2019-10-30 14:26:42,241 INFO 13748 [egg-security] use xframe middleware
+2019-10-30 14:26:42,241 INFO 13748 [egg-security] use dta middleware
+2019-10-30 14:26:42,241 INFO 13748 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:26:42,251 INFO 13748 [egg:core] dump config after load, 7ms
+2019-10-30 14:26:42,278 INFO 13748 [egg-watcher:application] watcher start success
+2019-10-30 14:26:42,302 INFO 13748 [egg:core] dump config after ready, 6ms
+2019-10-30 14:26:59,691 INFO 13835 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:26:59,711 INFO 13835 [egg-multipart] stream mode enable
+2019-10-30 14:26:59,858 INFO 13835 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:26:59,859 INFO 13835 [egg-security] use methodnoallow middleware
+2019-10-30 14:26:59,860 INFO 13835 [egg-security] use noopen middleware
+2019-10-30 14:26:59,860 INFO 13835 [egg-security] use nosniff middleware
+2019-10-30 14:26:59,860 INFO 13835 [egg-security] use xssProtection middleware
+2019-10-30 14:26:59,860 INFO 13835 [egg-security] use xframe middleware
+2019-10-30 14:26:59,860 INFO 13835 [egg-security] use dta middleware
+2019-10-30 14:26:59,860 INFO 13835 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:26:59,866 INFO 13835 [egg:core] dump config after load, 3ms
+2019-10-30 14:26:59,886 INFO 13835 [egg-watcher:application] watcher start success
+2019-10-30 14:26:59,905 INFO 13835 [egg:core] dump config after ready, 3ms
+2019-10-30 14:29:26,045 INFO 14082 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:29:26,062 INFO 14082 [egg-multipart] stream mode enable
+2019-10-30 14:29:26,202 INFO 14082 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:29:26,203 INFO 14082 [egg-security] use methodnoallow middleware
+2019-10-30 14:29:26,204 INFO 14082 [egg-security] use noopen middleware
+2019-10-30 14:29:26,204 INFO 14082 [egg-security] use nosniff middleware
+2019-10-30 14:29:26,204 INFO 14082 [egg-security] use xssProtection middleware
+2019-10-30 14:29:26,204 INFO 14082 [egg-security] use xframe middleware
+2019-10-30 14:29:26,204 INFO 14082 [egg-security] use dta middleware
+2019-10-30 14:29:26,204 INFO 14082 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:29:26,210 INFO 14082 [egg:core] dump config after load, 3ms
+2019-10-30 14:29:26,235 INFO 14082 [egg-watcher:application] watcher start success
+2019-10-30 14:29:26,254 INFO 14082 [egg:core] dump config after ready, 3ms
+2019-10-30 14:30:37,805 INFO 14278 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:30:37,831 INFO 14278 [egg-multipart] stream mode enable
+2019-10-30 14:30:38,021 INFO 14278 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:30:38,023 INFO 14278 [egg-security] use methodnoallow middleware
+2019-10-30 14:30:38,023 INFO 14278 [egg-security] use noopen middleware
+2019-10-30 14:30:38,023 INFO 14278 [egg-security] use nosniff middleware
+2019-10-30 14:30:38,023 INFO 14278 [egg-security] use xssProtection middleware
+2019-10-30 14:30:38,023 INFO 14278 [egg-security] use xframe middleware
+2019-10-30 14:30:38,024 INFO 14278 [egg-security] use dta middleware
+2019-10-30 14:30:38,024 INFO 14278 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:30:38,029 INFO 14278 [egg:core] dump config after load, 3ms
+2019-10-30 14:30:38,055 INFO 14278 [egg-watcher:application] watcher start success
+2019-10-30 14:30:38,084 INFO 14278 [egg:core] dump config after ready, 7ms
+2019-10-30 14:37:10,061 INFO 14457 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:37:10,081 INFO 14457 [egg-multipart] stream mode enable
+2019-10-30 14:37:10,235 INFO 14457 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:37:10,237 INFO 14457 [egg-security] use methodnoallow middleware
+2019-10-30 14:37:10,237 INFO 14457 [egg-security] use noopen middleware
+2019-10-30 14:37:10,237 INFO 14457 [egg-security] use nosniff middleware
+2019-10-30 14:37:10,237 INFO 14457 [egg-security] use xssProtection middleware
+2019-10-30 14:37:10,237 INFO 14457 [egg-security] use xframe middleware
+2019-10-30 14:37:10,237 INFO 14457 [egg-security] use dta middleware
+2019-10-30 14:37:10,237 INFO 14457 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:37:10,243 INFO 14457 [egg:core] dump config after load, 3ms
+2019-10-30 14:37:10,264 INFO 14457 [egg-watcher:application] watcher start success
+2019-10-30 14:37:10,282 INFO 14457 [egg:core] dump config after ready, 3ms
+2019-10-30 14:37:10,695 INFO 14468 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:37:10,719 INFO 14468 [egg-multipart] stream mode enable
+2019-10-30 14:37:10,898 INFO 14468 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:37:10,900 INFO 14468 [egg-security] use methodnoallow middleware
+2019-10-30 14:37:10,900 INFO 14468 [egg-security] use noopen middleware
+2019-10-30 14:37:10,901 INFO 14468 [egg-security] use nosniff middleware
+2019-10-30 14:37:10,901 INFO 14468 [egg-security] use xssProtection middleware
+2019-10-30 14:37:10,901 INFO 14468 [egg-security] use xframe middleware
+2019-10-30 14:37:10,901 INFO 14468 [egg-security] use dta middleware
+2019-10-30 14:37:10,901 INFO 14468 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:37:10,907 INFO 14468 [egg:core] dump config after load, 4ms
+2019-10-30 14:37:10,930 INFO 14468 [egg-watcher:application] watcher start success
+2019-10-30 14:37:10,951 INFO 14468 [egg:core] dump config after ready, 3ms
+2019-10-30 14:43:15,100 INFO 14681 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:43:15,117 INFO 14681 [egg-multipart] stream mode enable
+2019-10-30 14:43:15,274 INFO 14681 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:43:15,275 INFO 14681 [egg-security] use methodnoallow middleware
+2019-10-30 14:43:15,275 INFO 14681 [egg-security] use noopen middleware
+2019-10-30 14:43:15,276 INFO 14681 [egg-security] use nosniff middleware
+2019-10-30 14:43:15,276 INFO 14681 [egg-security] use xssProtection middleware
+2019-10-30 14:43:15,276 INFO 14681 [egg-security] use xframe middleware
+2019-10-30 14:43:15,276 INFO 14681 [egg-security] use dta middleware
+2019-10-30 14:43:15,276 INFO 14681 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:43:15,282 INFO 14681 [egg:core] dump config after load, 4ms
+2019-10-30 14:43:15,303 INFO 14681 [egg-watcher:application] watcher start success
+2019-10-30 14:43:15,322 INFO 14681 [egg:core] dump config after ready, 4ms
+2019-10-30 14:43:15,680 INFO 14693 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:43:15,701 INFO 14693 [egg-multipart] stream mode enable
+2019-10-30 14:43:15,846 INFO 14693 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:43:15,848 INFO 14693 [egg-security] use methodnoallow middleware
+2019-10-30 14:43:15,848 INFO 14693 [egg-security] use noopen middleware
+2019-10-30 14:43:15,848 INFO 14693 [egg-security] use nosniff middleware
+2019-10-30 14:43:15,848 INFO 14693 [egg-security] use xssProtection middleware
+2019-10-30 14:43:15,849 INFO 14693 [egg-security] use xframe middleware
+2019-10-30 14:43:15,849 INFO 14693 [egg-security] use dta middleware
+2019-10-30 14:43:15,849 INFO 14693 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:43:15,854 INFO 14693 [egg:core] dump config after load, 3ms
+2019-10-30 14:43:15,875 INFO 14693 [egg-watcher:application] watcher start success
+2019-10-30 14:43:15,894 INFO 14693 [egg:core] dump config after ready, 4ms
+2019-10-30 14:44:11,033 INFO 14729 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:44:11,054 INFO 14729 [egg-multipart] stream mode enable
+2019-10-30 14:44:11,225 INFO 14729 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:44:11,227 INFO 14729 [egg-security] use methodnoallow middleware
+2019-10-30 14:44:11,227 INFO 14729 [egg-security] use noopen middleware
+2019-10-30 14:44:11,227 INFO 14729 [egg-security] use nosniff middleware
+2019-10-30 14:44:11,227 INFO 14729 [egg-security] use xssProtection middleware
+2019-10-30 14:44:11,228 INFO 14729 [egg-security] use xframe middleware
+2019-10-30 14:44:11,228 INFO 14729 [egg-security] use dta middleware
+2019-10-30 14:44:11,228 INFO 14729 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:44:11,233 INFO 14729 [egg:core] dump config after load, 3ms
+2019-10-30 14:44:11,254 INFO 14729 [egg-watcher:application] watcher start success
+2019-10-30 14:44:11,273 INFO 14729 [egg:core] dump config after ready, 3ms
+2019-10-30 14:44:11,716 INFO 14740 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:44:11,737 INFO 14740 [egg-multipart] stream mode enable
+2019-10-30 14:44:11,922 INFO 14740 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:44:11,923 INFO 14740 [egg-security] use methodnoallow middleware
+2019-10-30 14:44:11,923 INFO 14740 [egg-security] use noopen middleware
+2019-10-30 14:44:11,924 INFO 14740 [egg-security] use nosniff middleware
+2019-10-30 14:44:11,924 INFO 14740 [egg-security] use xssProtection middleware
+2019-10-30 14:44:11,924 INFO 14740 [egg-security] use xframe middleware
+2019-10-30 14:44:11,924 INFO 14740 [egg-security] use dta middleware
+2019-10-30 14:44:11,924 INFO 14740 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:44:11,930 INFO 14740 [egg:core] dump config after load, 4ms
+2019-10-30 14:44:11,974 INFO 14740 [egg-watcher:application] watcher start success
+2019-10-30 14:44:12,038 INFO 14740 [egg:core] dump config after ready, 4ms
+2019-10-30 14:45:03,173 INFO 14778 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:45:03,194 INFO 14778 [egg-multipart] stream mode enable
+2019-10-30 14:45:03,417 INFO 14778 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:45:03,418 INFO 14778 [egg-security] use methodnoallow middleware
+2019-10-30 14:45:03,418 INFO 14778 [egg-security] use noopen middleware
+2019-10-30 14:45:03,420 INFO 14778 [egg-security] use nosniff middleware
+2019-10-30 14:45:03,421 INFO 14778 [egg-security] use xssProtection middleware
+2019-10-30 14:45:03,421 INFO 14778 [egg-security] use xframe middleware
+2019-10-30 14:45:03,422 INFO 14778 [egg-security] use dta middleware
+2019-10-30 14:45:03,422 INFO 14778 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:45:03,430 INFO 14778 [egg:core] dump config after load, 4ms
+2019-10-30 14:45:03,455 INFO 14778 [egg-watcher:application] watcher start success
+2019-10-30 14:45:03,490 INFO 14778 [egg:core] dump config after ready, 4ms
+2019-10-30 14:45:03,953 INFO 14789 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 14:45:03,973 INFO 14789 [egg-multipart] stream mode enable
+2019-10-30 14:45:04,141 INFO 14789 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 14:45:04,143 INFO 14789 [egg-security] use methodnoallow middleware
+2019-10-30 14:45:04,143 INFO 14789 [egg-security] use noopen middleware
+2019-10-30 14:45:04,143 INFO 14789 [egg-security] use nosniff middleware
+2019-10-30 14:45:04,144 INFO 14789 [egg-security] use xssProtection middleware
+2019-10-30 14:45:04,144 INFO 14789 [egg-security] use xframe middleware
+2019-10-30 14:45:04,144 INFO 14789 [egg-security] use dta middleware
+2019-10-30 14:45:04,144 INFO 14789 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 14:45:04,157 INFO 14789 [egg:core] dump config after load, 4ms
+2019-10-30 14:45:04,223 INFO 14789 [egg-watcher:application] watcher start success
+2019-10-30 14:45:04,253 INFO 14789 [egg:core] dump config after ready, 3ms
+2019-10-30 15:31:52,857 INFO 16381 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 15:31:52,881 INFO 16381 [egg-multipart] stream mode enable
+2019-10-30 15:31:53,075 INFO 16381 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 15:31:53,077 INFO 16381 [egg-security] use methodnoallow middleware
+2019-10-30 15:31:53,077 INFO 16381 [egg-security] use noopen middleware
+2019-10-30 15:31:53,077 INFO 16381 [egg-security] use nosniff middleware
+2019-10-30 15:31:53,077 INFO 16381 [egg-security] use xssProtection middleware
+2019-10-30 15:31:53,077 INFO 16381 [egg-security] use xframe middleware
+2019-10-30 15:31:53,078 INFO 16381 [egg-security] use dta middleware
+2019-10-30 15:31:53,078 INFO 16381 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 15:31:53,087 INFO 16381 [egg:core] dump config after load, 7ms
+2019-10-30 15:31:53,116 INFO 16381 [egg-watcher:application] watcher start success
+2019-10-30 15:31:53,148 INFO 16381 [egg:core] dump config after ready, 8ms
+2019-10-30 15:31:53,588 INFO 16392 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 15:31:53,612 INFO 16392 [egg-multipart] stream mode enable
+2019-10-30 15:31:53,781 INFO 16392 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 15:31:53,782 INFO 16392 [egg-security] use methodnoallow middleware
+2019-10-30 15:31:53,782 INFO 16392 [egg-security] use noopen middleware
+2019-10-30 15:31:53,783 INFO 16392 [egg-security] use nosniff middleware
+2019-10-30 15:31:53,783 INFO 16392 [egg-security] use xssProtection middleware
+2019-10-30 15:31:53,783 INFO 16392 [egg-security] use xframe middleware
+2019-10-30 15:31:53,783 INFO 16392 [egg-security] use dta middleware
+2019-10-30 15:31:53,783 INFO 16392 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 15:31:53,789 INFO 16392 [egg:core] dump config after load, 4ms
+2019-10-30 15:31:53,810 INFO 16392 [egg-watcher:application] watcher start success
+2019-10-30 15:31:53,828 INFO 16392 [egg:core] dump config after ready, 3ms
+2019-10-30 16:46:45,503 INFO 20038 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 16:46:45,529 INFO 20038 [egg-multipart] stream mode enable
+2019-10-30 16:46:45,810 INFO 20038 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 16:46:45,812 INFO 20038 [egg-security] use methodnoallow middleware
+2019-10-30 16:46:45,812 INFO 20038 [egg-security] use noopen middleware
+2019-10-30 16:46:45,812 INFO 20038 [egg-security] use nosniff middleware
+2019-10-30 16:46:45,813 INFO 20038 [egg-security] use xssProtection middleware
+2019-10-30 16:46:45,813 INFO 20038 [egg-security] use xframe middleware
+2019-10-30 16:46:45,813 INFO 20038 [egg-security] use dta middleware
+2019-10-30 16:46:45,813 INFO 20038 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 16:46:45,827 INFO 20038 [egg:core] dump config after load, 4ms
+2019-10-30 16:46:45,868 INFO 20038 [egg-watcher:application] watcher start success
+2019-10-30 16:46:45,910 INFO 20038 [egg:core] dump config after ready, 7ms
+2019-10-30 16:46:46,532 INFO 20050 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 16:46:46,552 INFO 20050 [egg-multipart] stream mode enable
+2019-10-30 16:46:46,715 INFO 20050 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 16:46:46,717 INFO 20050 [egg-security] use methodnoallow middleware
+2019-10-30 16:46:46,717 INFO 20050 [egg-security] use noopen middleware
+2019-10-30 16:46:46,717 INFO 20050 [egg-security] use nosniff middleware
+2019-10-30 16:46:46,717 INFO 20050 [egg-security] use xssProtection middleware
+2019-10-30 16:46:46,717 INFO 20050 [egg-security] use xframe middleware
+2019-10-30 16:46:46,718 INFO 20050 [egg-security] use dta middleware
+2019-10-30 16:46:46,718 INFO 20050 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 16:46:46,723 INFO 20050 [egg:core] dump config after load, 3ms
+2019-10-30 16:46:46,753 INFO 20050 [egg-watcher:application] watcher start success
+2019-10-30 16:46:46,772 INFO 20050 [egg:core] dump config after ready, 4ms
+2019-10-30 16:47:33,285 INFO 20078 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 16:47:33,315 INFO 20078 [egg-multipart] stream mode enable
+2019-10-30 16:47:33,592 INFO 20078 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 16:47:33,593 INFO 20078 [egg-security] use methodnoallow middleware
+2019-10-30 16:47:33,593 INFO 20078 [egg-security] use noopen middleware
+2019-10-30 16:47:33,594 INFO 20078 [egg-security] use nosniff middleware
+2019-10-30 16:47:33,594 INFO 20078 [egg-security] use xssProtection middleware
+2019-10-30 16:47:33,594 INFO 20078 [egg-security] use xframe middleware
+2019-10-30 16:47:33,594 INFO 20078 [egg-security] use dta middleware
+2019-10-30 16:47:33,594 INFO 20078 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 16:47:33,607 INFO 20078 [egg:core] dump config after load, 11ms
+2019-10-30 16:47:33,644 INFO 20078 [egg-watcher:application] watcher start success
+2019-10-30 16:47:33,678 INFO 20078 [egg:core] dump config after ready, 3ms
+2019-10-30 16:47:34,101 INFO 20089 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 16:47:34,123 INFO 20089 [egg-multipart] stream mode enable
+2019-10-30 16:47:34,310 INFO 20089 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 16:47:34,311 INFO 20089 [egg-security] use methodnoallow middleware
+2019-10-30 16:47:34,311 INFO 20089 [egg-security] use noopen middleware
+2019-10-30 16:47:34,312 INFO 20089 [egg-security] use nosniff middleware
+2019-10-30 16:47:34,312 INFO 20089 [egg-security] use xssProtection middleware
+2019-10-30 16:47:34,312 INFO 20089 [egg-security] use xframe middleware
+2019-10-30 16:47:34,312 INFO 20089 [egg-security] use dta middleware
+2019-10-30 16:47:34,312 INFO 20089 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 16:47:34,318 INFO 20089 [egg:core] dump config after load, 4ms
+2019-10-30 16:47:34,343 INFO 20089 [egg-watcher:application] watcher start success
+2019-10-30 16:47:34,366 INFO 20089 [egg:core] dump config after ready, 3ms
+2019-10-30 16:58:01,569 INFO 20483 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 16:58:01,590 INFO 20483 [egg-multipart] stream mode enable
+2019-10-30 16:58:01,734 INFO 20483 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 16:58:01,736 INFO 20483 [egg-security] use methodnoallow middleware
+2019-10-30 16:58:01,736 INFO 20483 [egg-security] use noopen middleware
+2019-10-30 16:58:01,736 INFO 20483 [egg-security] use nosniff middleware
+2019-10-30 16:58:01,736 INFO 20483 [egg-security] use xssProtection middleware
+2019-10-30 16:58:01,737 INFO 20483 [egg-security] use xframe middleware
+2019-10-30 16:58:01,737 INFO 20483 [egg-security] use dta middleware
+2019-10-30 16:58:01,737 INFO 20483 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 16:58:01,742 INFO 20483 [egg:core] dump config after load, 3ms
+2019-10-30 16:58:01,764 INFO 20483 [egg-watcher:application] watcher start success
+2019-10-30 16:58:01,782 INFO 20483 [egg:core] dump config after ready, 3ms
+2019-10-30 16:58:02,140 INFO 20494 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 16:58:02,160 INFO 20494 [egg-multipart] stream mode enable
+2019-10-30 16:58:02,310 INFO 20494 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 16:58:02,311 INFO 20494 [egg-security] use methodnoallow middleware
+2019-10-30 16:58:02,311 INFO 20494 [egg-security] use noopen middleware
+2019-10-30 16:58:02,311 INFO 20494 [egg-security] use nosniff middleware
+2019-10-30 16:58:02,312 INFO 20494 [egg-security] use xssProtection middleware
+2019-10-30 16:58:02,312 INFO 20494 [egg-security] use xframe middleware
+2019-10-30 16:58:02,312 INFO 20494 [egg-security] use dta middleware
+2019-10-30 16:58:02,312 INFO 20494 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 16:58:02,318 INFO 20494 [egg:core] dump config after load, 4ms
+2019-10-30 16:58:02,339 INFO 20494 [egg-watcher:application] watcher start success
+2019-10-30 16:58:02,364 INFO 20494 [egg:core] dump config after ready, 9ms
+2019-10-30 16:58:51,554 INFO 20543 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 16:58:51,574 INFO 20543 [egg-multipart] stream mode enable
+2019-10-30 16:58:51,720 INFO 20543 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 16:58:51,721 INFO 20543 [egg-security] use methodnoallow middleware
+2019-10-30 16:58:51,722 INFO 20543 [egg-security] use noopen middleware
+2019-10-30 16:58:51,722 INFO 20543 [egg-security] use nosniff middleware
+2019-10-30 16:58:51,722 INFO 20543 [egg-security] use xssProtection middleware
+2019-10-30 16:58:51,722 INFO 20543 [egg-security] use xframe middleware
+2019-10-30 16:58:51,722 INFO 20543 [egg-security] use dta middleware
+2019-10-30 16:58:51,722 INFO 20543 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 16:58:51,728 INFO 20543 [egg:core] dump config after load, 3ms
+2019-10-30 16:58:51,762 INFO 20543 [egg-watcher:application] watcher start success
+2019-10-30 16:58:51,781 INFO 20543 [egg:core] dump config after ready, 3ms
+2019-10-30 17:17:12,589 INFO 21179 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 17:17:12,607 INFO 21179 [egg-multipart] stream mode enable
+2019-10-30 17:17:12,762 INFO 21179 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 17:17:12,764 INFO 21179 [egg-security] use methodnoallow middleware
+2019-10-30 17:17:12,764 INFO 21179 [egg-security] use noopen middleware
+2019-10-30 17:17:12,764 INFO 21179 [egg-security] use nosniff middleware
+2019-10-30 17:17:12,764 INFO 21179 [egg-security] use xssProtection middleware
+2019-10-30 17:17:12,765 INFO 21179 [egg-security] use xframe middleware
+2019-10-30 17:17:12,765 INFO 21179 [egg-security] use dta middleware
+2019-10-30 17:17:12,765 INFO 21179 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 17:17:12,770 INFO 21179 [egg:core] dump config after load, 3ms
+2019-10-30 17:17:12,790 INFO 21179 [egg-watcher:application] watcher start success
+2019-10-30 17:17:12,814 INFO 21179 [egg:core] dump config after ready, 4ms
+2019-10-30 17:17:13,205 INFO 21190 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 17:17:13,229 INFO 21190 [egg-multipart] stream mode enable
+2019-10-30 17:17:13,381 INFO 21190 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 17:17:13,382 INFO 21190 [egg-security] use methodnoallow middleware
+2019-10-30 17:17:13,382 INFO 21190 [egg-security] use noopen middleware
+2019-10-30 17:17:13,382 INFO 21190 [egg-security] use nosniff middleware
+2019-10-30 17:17:13,383 INFO 21190 [egg-security] use xssProtection middleware
+2019-10-30 17:17:13,383 INFO 21190 [egg-security] use xframe middleware
+2019-10-30 17:17:13,383 INFO 21190 [egg-security] use dta middleware
+2019-10-30 17:17:13,383 INFO 21190 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 17:17:13,389 INFO 21190 [egg:core] dump config after load, 4ms
+2019-10-30 17:17:13,410 INFO 21190 [egg-watcher:application] watcher start success
+2019-10-30 17:17:13,429 INFO 21190 [egg:core] dump config after ready, 4ms
+2019-10-30 17:17:42,069 INFO 21217 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 17:17:42,086 INFO 21217 [egg-multipart] stream mode enable
+2019-10-30 17:17:42,236 INFO 21217 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 17:17:42,238 INFO 21217 [egg-security] use methodnoallow middleware
+2019-10-30 17:17:42,238 INFO 21217 [egg-security] use noopen middleware
+2019-10-30 17:17:42,238 INFO 21217 [egg-security] use nosniff middleware
+2019-10-30 17:17:42,238 INFO 21217 [egg-security] use xssProtection middleware
+2019-10-30 17:17:42,239 INFO 21217 [egg-security] use xframe middleware
+2019-10-30 17:17:42,239 INFO 21217 [egg-security] use dta middleware
+2019-10-30 17:17:42,239 INFO 21217 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 17:17:42,244 INFO 21217 [egg:core] dump config after load, 3ms
+2019-10-30 17:17:42,265 INFO 21217 [egg-watcher:application] watcher start success
+2019-10-30 17:17:42,284 INFO 21217 [egg:core] dump config after ready, 3ms
+2019-10-30 17:17:42,688 INFO 21228 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 17:17:42,707 INFO 21228 [egg-multipart] stream mode enable
+2019-10-30 17:17:42,852 INFO 21228 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 17:17:42,853 INFO 21228 [egg-security] use methodnoallow middleware
+2019-10-30 17:17:42,853 INFO 21228 [egg-security] use noopen middleware
+2019-10-30 17:17:42,853 INFO 21228 [egg-security] use nosniff middleware
+2019-10-30 17:17:42,854 INFO 21228 [egg-security] use xssProtection middleware
+2019-10-30 17:17:42,854 INFO 21228 [egg-security] use xframe middleware
+2019-10-30 17:17:42,854 INFO 21228 [egg-security] use dta middleware
+2019-10-30 17:17:42,854 INFO 21228 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 17:17:42,864 INFO 21228 [egg:core] dump config after load, 7ms
+2019-10-30 17:17:42,886 INFO 21228 [egg-watcher:application] watcher start success
+2019-10-30 17:17:42,905 INFO 21228 [egg:core] dump config after ready, 4ms
+2019-10-30 17:40:25,345 INFO 21872 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 17:40:25,367 INFO 21872 [egg-multipart] stream mode enable
+2019-10-30 17:40:25,575 INFO 21872 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 17:40:25,577 INFO 21872 [egg-security] use methodnoallow middleware
+2019-10-30 17:40:25,577 INFO 21872 [egg-security] use noopen middleware
+2019-10-30 17:40:25,577 INFO 21872 [egg-security] use nosniff middleware
+2019-10-30 17:40:25,578 INFO 21872 [egg-security] use xssProtection middleware
+2019-10-30 17:40:25,578 INFO 21872 [egg-security] use xframe middleware
+2019-10-30 17:40:25,578 INFO 21872 [egg-security] use dta middleware
+2019-10-30 17:40:25,578 INFO 21872 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 17:40:25,583 INFO 21872 [egg:core] dump config after load, 3ms
+2019-10-30 17:40:25,600 INFO 21872 [egg-watcher:application] watcher start success
+2019-10-30 17:40:25,678 INFO 21872 [egg:core] dump config after ready, 3ms
+2019-10-30 17:40:26,127 INFO 21884 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 17:40:26,154 INFO 21884 [egg-multipart] stream mode enable
+2019-10-30 17:40:26,355 INFO 21884 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-30 17:40:26,360 INFO 21884 [egg-security] use methodnoallow middleware
+2019-10-30 17:40:26,362 INFO 21884 [egg-security] use noopen middleware
+2019-10-30 17:40:26,364 INFO 21884 [egg-security] use nosniff middleware
+2019-10-30 17:40:26,365 INFO 21884 [egg-security] use xssProtection middleware
+2019-10-30 17:40:26,366 INFO 21884 [egg-security] use xframe middleware
+2019-10-30 17:40:26,366 INFO 21884 [egg-security] use dta middleware
+2019-10-30 17:40:26,366 INFO 21884 [egg-security] compose 6 middlewares into one security middleware
+2019-10-30 17:40:26,390 INFO 21884 [egg:core] dump config after load, 13ms
+2019-10-30 17:40:26,460 INFO 21884 [egg-watcher:application] watcher start success
+2019-10-30 17:40:26,508 INFO 21884 [egg:core] dump config after ready, 8ms
+2019-10-31 11:20:06,633 INFO 4701 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-31 11:20:06,649 INFO 4701 [egg-multipart] stream mode enable
+2019-10-31 11:20:06,823 INFO 4701 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-10-31 11:20:06,825 INFO 4701 [egg-security] use methodnoallow middleware
+2019-10-31 11:20:06,825 INFO 4701 [egg-security] use noopen middleware
+2019-10-31 11:20:06,825 INFO 4701 [egg-security] use nosniff middleware
+2019-10-31 11:20:06,825 INFO 4701 [egg-security] use xssProtection middleware
+2019-10-31 11:20:06,825 INFO 4701 [egg-security] use xframe middleware
+2019-10-31 11:20:06,826 INFO 4701 [egg-security] use dta middleware
+2019-10-31 11:20:06,826 INFO 4701 [egg-security] compose 6 middlewares into one security middleware
+2019-10-31 11:20:06,832 INFO 4701 [egg:core] dump config after load, 3ms
+2019-10-31 11:20:06,853 INFO 4701 [egg-watcher:application] watcher start success
+2019-10-31 11:20:06,876 INFO 4701 [egg:core] dump config after ready, 3ms
+2019-11-05 18:40:51,168 INFO 20180 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-05 18:40:51,188 INFO 20180 [egg-multipart] stream mode enable
+2019-11-05 18:40:51,372 INFO 20180 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-11-05 18:40:51,373 INFO 20180 [egg-security] use methodnoallow middleware
+2019-11-05 18:40:51,374 INFO 20180 [egg-security] use noopen middleware
+2019-11-05 18:40:51,374 INFO 20180 [egg-security] use nosniff middleware
+2019-11-05 18:40:51,375 INFO 20180 [egg-security] use xssProtection middleware
+2019-11-05 18:40:51,375 INFO 20180 [egg-security] use xframe middleware
+2019-11-05 18:40:51,375 INFO 20180 [egg-security] use dta middleware
+2019-11-05 18:40:51,375 INFO 20180 [egg-security] compose 6 middlewares into one security middleware
+2019-11-05 18:40:51,381 INFO 20180 [egg:core] dump config after load, 3ms
+2019-11-05 18:40:51,402 INFO 20180 [egg-watcher:application] watcher start success
+2019-11-05 18:40:51,426 INFO 20180 [egg:core] dump config after ready, 3ms
+2019-11-06 12:07:24,082 INFO 6334 [egg:logger] init all loggers with options: {"dir":"/home/superman/project/eggjs-demo/logs/eggjs-demo","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-demo-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-06 12:07:24,109 INFO 6334 [egg-multipart] stream mode enable
+2019-11-06 12:07:24,313 INFO 6334 [egg-static] starting static serve /public/ -> /home/superman/project/eggjs-demo/app/public
+2019-11-06 12:07:24,315 INFO 6334 [egg-security] use methodnoallow middleware
+2019-11-06 12:07:24,316 INFO 6334 [egg-security] use noopen middleware
+2019-11-06 12:07:24,316 INFO 6334 [egg-security] use nosniff middleware
+2019-11-06 12:07:24,316 INFO 6334 [egg-security] use xssProtection middleware
+2019-11-06 12:07:24,317 INFO 6334 [egg-security] use xframe middleware
+2019-11-06 12:07:24,317 INFO 6334 [egg-security] use dta middleware
+2019-11-06 12:07:24,317 INFO 6334 [egg-security] compose 6 middlewares into one security middleware
+2019-11-06 12:07:24,326 INFO 6334 [egg:core] dump config after load, 5ms
+2019-11-06 12:07:24,360 INFO 6334 [egg-watcher:application] watcher start success
+2019-11-06 12:07:24,385 INFO 6334 [egg:core] dump config after ready, 3ms

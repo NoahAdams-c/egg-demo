@@ -1,0 +1,181 @@
+2019-10-30 10:06:33,624 ERROR 1917 [-/192.168.1.219/-/18ms POST /regist] nodejs.Error: WHERE parameter "user_id" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/abstract/query-generator.js:2085:13)
+    at Utils.getComplexKeys.forEach.prop (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/abstract/query-generator.js:2074:25)
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/abstract/query-generator.js:2072:35)
+    at MySQLQueryGenerator.getWhereConditions (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/abstract/query-generator.js:2484:19)
+    at MySQLQueryGenerator.selectQuery (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/abstract/query-generator.js:1307:28)
+    at QueryInterface.select (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/query-interface.js:1119:27)
+    at Promise.try.then.then.then (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:1755:34)
+    at tryCatcher (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:699:18)
+    at _drainQueueStep (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:138:12)
+    at _drainQueue (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:131:9)
+    at Async._drainQueues (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:147:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/debuggability.js:411:19)
+    at Promise._then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:237:17)
+    at Promise.then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:130:17)
+    at Function.findAll (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:1753:8)
+    at Function.findOne (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:1922:17)
+    at UserService.searchByUserId (/home/superman/project/eggjs-demo/app/service/user.js:40:35)
+    at UserService.isUserExist (/home/superman/project/eggjs-demo/app/service/user.js:49:25)
+    at UserController.regist (/home/superman/project/eggjs-demo/app/controller/user.js:69:38)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /home/superman/project/eggjs-demo/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/home/superman/project/eggjs-demo/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/home/superman/project/eggjs-demo/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/home/superman/project/eggjs-demo/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 1917
+hostname: archlinux
+
+2019-10-30 10:21:44,184 ERROR 3957 [-/192.168.1.219/-/67ms POST /regist] nodejs.SequelizeDatabaseError: Unknown column 'phone_number' in 'field list'
+    at Query.formatError (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/debuggability.js:411:19)
+    at Promise._then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:237:17)
+    at Promise.then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:130:17)
+    at Function.findAll (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:1753:8)
+    at Function.findOne (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:1922:17)
+    at UserService.searchByUserId (/home/superman/project/eggjs-demo/app/service/user.js:40:35)
+    at UserService.isUserExist (/home/superman/project/eggjs-demo/app/service/user.js:49:25)
+    at UserController.regist (/home/superman/project/eggjs-demo/app/controller/user.js:67:38)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /home/superman/project/eggjs-demo/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /home/superman/project/eggjs-demo/node_modules/_egg-development@2.4.3@egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at i18n (/home/superman/project/eggjs-demo/node_modules/_egg-i18n@2.1.1@egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at dta (/home/superman/project/eggjs-demo/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at xframe (/home/superman/project/eggjs-demo/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/home/superman/project/eggjs-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'phone_number' in 'field list'","sql":"SELECT `id`, `user_id`, `password`, `phone_number`, `created_at`, `updated_at` FROM `user` AS `user` WHERE `user`.`user_id` = 'chenchen';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'phone_number' in 'field list'","sql":"SELECT `id`, `user_id`, `password`, `phone_number`, `created_at`, `updated_at` FROM `user` AS `user` WHERE `user`.`user_id` = 'chenchen';"}
+sql: "SELECT `id`, `user_id`, `password`, `phone_number`, `created_at`, `updated_at` FROM `user` AS `user` WHERE `user`.`user_id` = 'chenchen';"
+parameters: undefined
+pid: 3957
+hostname: archlinux
+
+2019-10-30 11:41:43,847 ERROR 7421 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'config' of undefined
+    at new BaseContextClass (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/base_context_class.js:30:27)
+    at new BaseContextClass (/home/superman/project/eggjs-demo/node_modules/_egg@2.23.0@egg/lib/core/base_context_class.js:13:1)
+    at new ChatController (/home/superman/project/eggjs-demo/app/controller/chat.js:10:1)
+    at Object.classControllerMiddleware [as addNewRecords] (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:83:26)
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:20:39)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Socket.socket.on.args (/home/superman/project/eggjs-demo/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:104:23)
+    at Socket.emit (events.js:198:13)
+    at /home/superman/project/eggjs-demo/node_modules/_socket.io@2.3.0@socket.io/lib/socket.js:528:12
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 7421
+hostname: archlinux
+
+2019-10-30 11:52:43,836 ERROR 7930 nodejs.SequelizeDatabaseError: [egg-socket.io] controller execute error: Unknown column 'content' in 'field list'
+    at Query.formatError (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/mysql/query.js:244:16)
+    at handler (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/dialects/mysql/query.js:51:23)
+    at Prepare.Commands.Prepare [as onResult] (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:595:11)
+    at Prepare.execute (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:408:32)
+    at PacketParser.Connection.packetParser.p [as onPacket] (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/packet_parser.js:75:16)
+    at Socket.Connection.stream.on.data (/home/superman/project/eggjs-demo/node_modules/_mysql2@1.7.0@mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/debuggability.js:411:19)
+    at Promise._then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:237:17)
+    at Promise.then (/home/superman/project/eggjs-demo/node_modules/_bluebird@3.5.5@bluebird/js/release/promise.js:130:17)
+    at model.save (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:3963:8)
+    at Function.create (/home/superman/project/eggjs-demo/node_modules/_sequelize@5.17.1@sequelize/lib/model.js:2224:8)
+    at ChatService.insertNewRecords (/home/superman/project/eggjs-demo/app/service/chat.js:27:31)
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:19:37)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Socket.socket.on.args (/home/superman/project/eggjs-demo/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:104:23)
+    at Socket.emit (events.js:198:13)
+    at /home/superman/project/eggjs-demo/node_modules/_socket.io@2.3.0@socket.io/lib/socket.js:528:12
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'content' in 'field list'","sql":"INSERT INTO `user` (`id`,`user_id`,`content`,`to_who`,`created_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["chenchen","1","ccc","2019-10-30 03:52:43"]}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'content' in 'field list'","sql":"INSERT INTO `user` (`id`,`user_id`,`content`,`to_who`,`created_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["chenchen","1","ccc","2019-10-30 03:52:43"]}
+sql: "INSERT INTO `user` (`id`,`user_id`,`content`,`to_who`,`created_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["chenchen","1","ccc","2019-10-30 03:52:43"]
+pid: 7930
+hostname: archlinux
+
+2019-10-30 12:13:08,073 ERROR 9055 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'insertNewRecords' of undefined
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:20:22)
+    at Object.callFn (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/superman/project/eggjs-demo/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Socket.socket.on.args (/home/superman/project/eggjs-demo/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:104:23)
+    at Socket.emit (events.js:198:13)
+    at /home/superman/project/eggjs-demo/node_modules/_socket.io@2.3.0@socket.io/lib/socket.js:528:12
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 9055
+hostname: archlinux
+
+2019-10-30 13:31:08,377 ERROR 11291 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'emit' of undefined
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:31:10)
+
+pid: 11291
+hostname: archlinux
+
+2019-10-30 13:36:31,091 ERROR 11540 nodejs.ReferenceError: [egg-socket.io] controller execute error: sequelize is not defined
+    at ChatService.searchRecordsByFromTo (/home/superman/project/eggjs-demo/app/service/chat.js:89:11)
+    at ChatController.index (/home/superman/project/eggjs-demo/app/io/controller/chat.js:22:36)
+
+pid: 11540
+hostname: archlinux
+
