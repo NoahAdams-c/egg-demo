@@ -4,6 +4,7 @@
   "description": "egg.js demo",
   "main": "index.js",
   "scripts": {
+    "pm2:start": "pm2 start -n egg-demo npm -- run dev",
     "dev": "egg-bin dev --sticky",
     "db-generate": "npx sequelize migration:generate",
     "db-migrate": "npx sequelize db:migrate",
