@@ -3,18 +3,18 @@
  * @Author: chenchen
  * @Date: 2019-11-08 16:58:01
  * @LastEditors: chenchen
- * @LastEditTime: 2019-11-08 16:58:41
+ * @LastEditTime: 2019-11-08 17:10:20
  */
-'use strict';
+"use strict"
 
 module.exports = {
-  up: (queryInterface, Sequelize) => {
-    const { STRING } = Sequelize
+	up: async (queryInterface, Sequelize) => {
+		const { STRING } = Sequelize
 		await queryInterface.changeColumn("chat", "content", STRING)
-  },
+	},
 
-  down: (queryInterface, Sequelize) => {
-    const { STRING } = Sequelize
+	down: async (queryInterface, Sequelize) => {
+		const { STRING } = Sequelize
 		await queryInterface.changeColumn("chat", "content", STRING(10))
-  }
-};
+	}
+}
