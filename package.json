@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "egg-bin dev --sticky",
+    "db-generate": "npx sequelize migration:generate",
     "db-migrate": "npx sequelize db:migrate",
     "db-undo-last": "npx sequelize db:migrate:undo",
     "db-undo-all": "npx sequelize db:migrate:undo:all",
