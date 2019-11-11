@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-29 16:48:28
  * @LastEditors: chenchen
- * @LastEditTime: 2019-10-30 14:30:13
+ * @LastEditTime: 2019-11-11 15:51:00
  */
 
 // mysql插件
@@ -11,6 +11,12 @@
 // 	enable: true,
 // 	package: "egg-mysql"
 // }
+
+// egg-redis插件
+exports.redis = {
+	enable: true,
+	package: "egg-redis"
+}
 
 // sequelize插件
 exports.sequelize = {

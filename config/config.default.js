@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-29 14:59:58
  * @LastEditors: chenchen
- * @LastEditTime: 2019-10-30 14:29:20
+ * @LastEditTime: 2019-11-11 16:09:52
  */
 exports.keys = "chenchen9694"
 
@@ -36,6 +36,16 @@ exports.sequelize = {
 	database: "D_TEST",
 	username: "root",
 	password: "960904"
+}
+
+// redis配置
+exports.redis = {
+	client: {
+		port: 6379,
+		host: "127.0.0.1",
+		password: "960904",
+		db: 0
+	}
 }
 
 // socketio配置
