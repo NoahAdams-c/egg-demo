@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-29 15:07:18
  * @LastEditors: chenchen
- * @LastEditTime: 2019-10-30 17:40:24
+ * @LastEditTime: 2019-12-09 18:26:17
  */
 const Controller = require("egg").Controller
 
@@ -70,6 +70,21 @@ class UserController extends Controller {
 				console.log(result)
 				ctx.body = ctx.helper.packData("success")
 			}
+		}
+	}
+
+	/**
+	 * 上传头像
+	 */
+	async uploadAvatar() {
+		const { ctx, service } = this
+		const userid = ctx.params.userid
+		const stream = await ctx.getFileStream()
+		const result = await service.user.updateAvatar(userid, stream)
+		if (result) {
+			ctx.body = ctx.helper.packData("success", "", result)
+		} else {
+			ctx.body = ctx.helper.packData("fail", "")
 		}
 	}
 }

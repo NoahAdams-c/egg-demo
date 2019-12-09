@@ -15,7 +15,7 @@ typings/
 .env
 access_token.json
 jsconfig.json
-public/**/
+app/public/**/
 # test/
 database/data.csv
 

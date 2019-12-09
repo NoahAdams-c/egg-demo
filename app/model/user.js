@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-30 11:16:52
  * @LastEditors: chenchen
- * @LastEditTime: 2019-10-30 10:22:51
+ * @LastEditTime: 2019-12-09 15:30:57
  */
 
 module.exports = app => {
@@ -16,6 +16,7 @@ module.exports = app => {
 			user_id: { type: STRING(10), unique: "compositeIndex" },
 			password: STRING(10),
 			nick_name: STRING(10),
+			avatar: STRING,
 			created_at: DATE,
 			updated_at: DATE
 		},

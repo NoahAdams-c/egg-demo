@@ -3,10 +3,16 @@
  * @Author: chenchen
  * @Date: 2019-08-29 16:42:49
  * @LastEditors: chenchen
- * @LastEditTime: 2019-10-30 10:15:07
+ * @LastEditTime: 2019-12-09 18:26:27
  */
 const Service = require("egg").Service
-const Sequelize = require("sequelize")
+
+const fs = require("fs")
+const Path = require("path")
+const sendToWormhole = require("stream-wormhole")
+const promisify = require("util").promisify
+
+const mkdir = promisify(fs.mkdir)
 
 class UserService extends Service {
 	/**
@@ -69,6 +75,56 @@ class UserService extends Service {
 		let result = ctx.model.User.create(row)
 		console.log(result)
 		return result
+	}
+
+	/**
+	 * 更新头像
+	 * @param {String} userid 用户id
+	 * @param {FileStream} stream 文件流
+	 */
+	async updateAvatar(userid, stream) {
+		const { ctx } = this
+		let fileName = `avatar_${new Date().getTime()}${Path.extname(
+			stream.filename
+		)}`
+		let targetDir = Path.join("./", "app/public/avatar/", userid)
+		// 如果不存在目录创建目录
+		await mkdir(targetDir).catch(err => {})
+		let target = Path.join(targetDir, fileName)
+		const path = await new Promise((resolve, reject) => {
+			const remoteFileStream = fs.createWriteStream(target)
+			stream.pipe(remoteFileStream)
+			let errFlag = false
+			// 监听错误
+			remoteFileStream.on("error", err => {
+				errFlag = true
+				// 停止写入
+				sendToWormhole(stream)
+				remoteFileStream.destroy()
+				console.log("\n" + err + "\n")
+				reject("")
+			})
+			// 监听完成
+			remoteFileStream.on("finish", () => {
+				if (errFlag) {
+					return
+				}
+				resolve(target.replace("app", ""))
+			})
+		})
+		if (path) {
+			await ctx.model.User.update(
+				{
+					avatar: path
+				},
+				{
+					where: {
+						user_id: userid
+					}
+				}
+			)
+		}
+		return { path }
 	}
 }
 
