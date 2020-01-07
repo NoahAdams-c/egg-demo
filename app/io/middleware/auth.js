@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-10-23 15:04:43
  * @LastEditors: chenchen
- * @LastEditTime: 2020-01-07 15:30:06
+ * @LastEditTime: 2020-01-07 15:34:03
  */
 module.exports = app => {
 	return async (ctx, next) => {
@@ -14,7 +14,7 @@ module.exports = app => {
 		if (userInfo.user_id) {
 			ctx.app.socketIdMaps[userInfo.user_id] = {
 				socketId,
-				nickName: userInfo.nickName,
+				nickName: userInfo.nick_name,
 				avatar: userInfo.avatar
 			}
 			// 连接成功提示客户端
