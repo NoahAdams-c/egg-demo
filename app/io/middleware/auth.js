@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-10-23 15:04:43
  * @LastEditors: chenchen
- * @LastEditTime: 2020-01-07 15:10:15
+ * @LastEditTime: 2020-01-07 15:25:16
  */
 module.exports = app => {
 	return async (ctx, next) => {
@@ -17,7 +17,7 @@ module.exports = app => {
 				avatar: userInfo.avatar
 			}
 			// 连接成功提示客户端
-			console.log(ctx.app.socketIdMaps[userId], "已连接")
+			console.log(ctx.app.socketIdMaps[userInfo.userId], "已连接")
 			ctx.socket.emit("connected")
 			ctx.helper.logOnlineUsers()
 		} else {
@@ -25,8 +25,8 @@ module.exports = app => {
 		}
 		await next()
 		// 断开连接
-		console.log(ctx.app.socketIdMaps[userId], "连接已断开")
-		delete ctx.app.socketIdMaps[userId]
+		console.log(ctx.app.socketIdMaps[userInfo.userId], "连接已断开")
+		delete ctx.app.socketIdMaps[userInfo.userId]
 		ctx.helper.logOnlineUsers()
 	}
 }
