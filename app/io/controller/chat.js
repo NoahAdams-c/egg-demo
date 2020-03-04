@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-10-23 15:16:37
  * @LastEditors: chenchen
- * @LastEditTime: 2020-01-07 16:06:18
+ * @LastEditTime: 2020-03-02 17:45:58
  */
 
 const { Controller } = require("egg")
@@ -13,7 +13,7 @@ class ChatController extends Controller {
 		console.log("\n=============chatControllerStart==============")
 		const { ctx, service } = this
 		const data = ctx.args[0]
-		console.log(`收到消息(id:${ctx.socket.id})：`, data)
+		console.log(process.pid + ":", `收到消息(id:${ctx.socket.id})：`, data)
 		const user_id = JSON.parse(ctx.socket.handshake.query.userInfo).user_id
 		const { msg, to } = data
 		let now = new Date()

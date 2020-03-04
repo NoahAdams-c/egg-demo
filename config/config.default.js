@@ -3,13 +3,13 @@
  * @Author: chenchen
  * @Date: 2019-08-29 14:59:58
  * @LastEditors: chenchen
- * @LastEditTime: 2019-11-11 16:09:52
+ * @LastEditTime: 2020-03-02 17:44:34
  */
 exports.keys = "chenchen9694"
 
 exports.cluster = {
 	listen: {
-		port: "7003"
+		port: 7003
 	}
 }
 
@@ -50,6 +50,12 @@ exports.redis = {
 
 // socketio配置
 exports.io = {
+	redis: {
+		host: "127.0.0.1",
+		port: 6379,
+		auth_pass: "960904",
+		db: 0
+	},
 	namespace: {
 		"/": {
 			connectionMiddleware: ["auth"],
