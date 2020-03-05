@@ -3,12 +3,12 @@
  * @Author: chenchen
  * @Date: 2019-10-23 15:04:43
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-05 23:24:40
+ * @LastEditTime: 2020-03-05 23:30:49
  */
 module.exports = app => {
 	return async (ctx, next) => {
 		const socketId = ctx.socket.id
-		const address = socket.handshake.address
+		const address = ctx.socket.handshake.address
 		let { userInfo } = ctx.socket.handshake.query
 		console.log(process.pid + ":", userInfo + " " + address)
 		userInfo = JSON.parse(userInfo)
