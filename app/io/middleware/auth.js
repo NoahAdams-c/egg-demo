@@ -3,13 +3,14 @@
  * @Author: chenchen
  * @Date: 2019-10-23 15:04:43
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-02 17:55:57
+ * @LastEditTime: 2020-03-05 23:24:40
  */
 module.exports = app => {
 	return async (ctx, next) => {
 		const socketId = ctx.socket.id
+		const address = socket.handshake.address
 		let { userInfo } = ctx.socket.handshake.query
-		console.log(process.pid + ":", userInfo)
+		console.log(process.pid + ":", userInfo + " " + address)
 		userInfo = JSON.parse(userInfo)
 		if (userInfo.user_id) {
 			ctx.app.socketIdMaps[userInfo.user_id] = {
