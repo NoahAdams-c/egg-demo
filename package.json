@@ -4,8 +4,10 @@
   "description": "egg.js demo",
   "main": "index.js",
   "scripts": {
-    "pm2:start": "pm2 start -n egg-demo npm -- run dev",
-    "dev": "egg-bin dev --sticky",
+    "pm2:start": "pm2 start -n egg-demo npm -- run start",
+    "start": "egg-bin dev --sticky",
+    "local": "EGG_SERVER_ENV=local npm -- run start",
+    "prod": "EGG_SERVER_ENV=prod npm -- run start",
     "db-generate": "npx sequelize migration:generate",
     "db-migrate": "npx sequelize db:migrate",
     "db-undo-last": "npx sequelize db:migrate:undo",

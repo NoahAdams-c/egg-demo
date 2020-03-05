@@ -19,7 +19,8 @@
     "username": "root",
     "password": "960904",
     "database": "D_TEST",
-    "host": "127.0.0.1",
+    // "host": "192.168.1.219",
+    "host": "192.168.1.4",
     "dialect": "mysql",
     "operatorsAliases": false
   }
