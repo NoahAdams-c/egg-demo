@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-10-28 12:43:52
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-09 15:56:02
+ * @LastEditTime: 2020-03-09 16:19:58
  */
 const { logger } = require("cc-vue-util/common")
 
@@ -15,7 +15,7 @@ module.exports = {
 		// const maps = this.app.socketIdMaps
 		const redis = this.app.redis
 		const maps = await redis.hgetall("USER_SOCKET_MAP")
-		this.logger("Online users", maps)
+		this.logger("Online users", JSON.stringify(maps))
 		setTimeout(() => {
 			this.app.io.of("/").emit("onlineUsers", maps)
 		}, 1000)
