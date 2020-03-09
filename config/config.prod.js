@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-30 11:09:06
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-05 21:13:19
+ * @LastEditTime: 2020-03-09 15:27:16
  */
 exports.keys = "chenchen9694"
 
@@ -31,7 +31,8 @@ exports.security = {
 // sequelize配置
 exports.sequelize = {
 	dialect: "mysql",
-	host: "192.168.1.4",
+	// host: "192.168.1.6",
+	host: "192.168.1.219",
 	port: 3306,
 	database: "D_TEST",
 	username: "root",
@@ -42,7 +43,8 @@ exports.sequelize = {
 exports.redis = {
 	client: {
 		port: 6379,
-		host: "192.168.1.4",
+		// host: "192.168.1.6",
+		host: "192.168.1.219",
 		password: "960904",
 		db: 0
 	}
@@ -51,7 +53,8 @@ exports.redis = {
 // socketio配置
 exports.io = {
 	redis: {
-		host: "192.168.1.4",
+		// host: "192.168.1.6",
+		host: "192.168.1.219",
 		port: 6379,
 		auth_pass: "960904",
 		db: 0

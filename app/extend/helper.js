@@ -3,21 +3,19 @@
  * @Author: chenchen
  * @Date: 2019-10-28 12:43:52
  * @LastEditors: chenchen
- * @LastEditTime: 2019-10-29 22:33:39
+ * @LastEditTime: 2020-03-09 15:56:02
  */
+const { logger } = require("cc-vue-util/common")
+
 module.exports = {
 	/**
 	 * 广播socket在线人数
 	 */
-	logOnlineUsers() {
-		const maps = this.app.socketIdMaps
-		console.log(
-			"\n====================ID - Socket Maps========================="
-		)
-		console.log(maps)
-		console.log(
-			"=============================================================\n"
-		)
+	async logOnlineUsers() {
+		// const maps = this.app.socketIdMaps
+		const redis = this.app.redis
+		const maps = await redis.hgetall("USER_SOCKET_MAP")
+		this.logger("Online users", maps)
 		setTimeout(() => {
 			this.app.io.of("/").emit("onlineUsers", maps)
 		}, 1000)
@@ -34,5 +32,6 @@ module.exports = {
 			msg,
 			data
 		}
-	}
+	},
+	logger
 }

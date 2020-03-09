@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-10-25 11:48:24
  * @LastEditors: chenchen
- * @LastEditTime: 2019-10-30 16:46:44
+ * @LastEditTime: 2020-03-09 15:45:21
  */
 module.exports = {
 	/**
@@ -17,5 +17,5 @@ module.exports = {
 	 *    ...
 	 * }
 	 */
-	socketIdMaps: {}
+	// socketIdMaps: {}
 }
