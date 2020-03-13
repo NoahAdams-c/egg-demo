@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pm2:start": "pm2 start -n egg-demo npm -- run start",
-    "start": "egg-bin dev --sticky",
-    "local": "EGG_SERVER_ENV=local npm -- run start",
-    "prod": "EGG_SERVER_ENV=prod npm -- run start",
+    "dev": "egg-bin dev --sticky",
+    "local": "EGG_SERVER_ENV=local node server.js",
+    "prod": "EGG_SERVER_ENV=prod node server.js",
     "db-generate": "npx sequelize migration:generate",
     "db-migrate": "npx sequelize db:migrate",
     "db-undo-last": "npx sequelize db:migrate:undo",
