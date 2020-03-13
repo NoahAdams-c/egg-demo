@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2020-03-04 13:16:26
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-05 21:12:47
+ * @LastEditTime: 2020-03-14 04:20:36
  */
 
 class AppBootHook {
@@ -30,10 +30,13 @@ class AppBootHook {
 	}
 
 	async willReady() {
+		const app = this.app
 		// 所有的插件都已启动完毕，但是应用整体还未 ready
 		// 可以做一些数据初始化等操作，这些操作成功才会启动应用
 		// 例如：从数据库加载数据到内存缓存
 		//   this.app.cacheData = await this.app.model.query(QUERY_CACHE_SQL);
+
+		await app.redis.del("USER_SOCKET_MAP")
 	}
 
 	async didReady() {

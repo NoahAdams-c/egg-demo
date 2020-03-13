@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-29 15:07:18
  * @LastEditors: chenchen
- * @LastEditTime: 2019-12-09 18:26:17
+ * @LastEditTime: 2020-03-14 03:38:38
  */
 const Controller = require("egg").Controller
 
@@ -15,14 +15,6 @@ class UserController extends Controller {
 	 */
 	async getUsers() {
 		const { ctx, service } = this
-		// // 参数规则
-		// const rule = {
-		// 	page_size: "number",
-		// 	current_page: "number"
-		// }
-		// // 校验参数
-		// ctx.validate(rule)
-
 		// 请求参数
 		const reqBody = ctx.request.query
 		const result = await service.user.searchAll(
@@ -30,6 +22,29 @@ class UserController extends Controller {
 			parseInt(reqBody.current_page)
 		)
 		ctx.body = result
+	}
+
+	/**
+	 * 获取用户信息
+	 * @param {String} user_id 用户名
+	 */
+	async getUserInfo() {
+		const { ctx, service } = this
+		const user_id = ctx.params.userid
+		if (user_id === "undefined" || user_id === "null") {
+			const msg = "参数user_id不合法"
+			ctx.body = ctx.helper.packData("fail", msg)
+		}
+		const result = await service.user.searchByUserId(user_id)
+		if (result) {
+			ctx.body = ctx.helper.packData("success", "", {
+				nick_name: result.nick_name,
+				avatar: result.avatar
+			})
+		} else {
+			const msg = "用户不存在"
+			ctx.body = ctx.helper.packData("fail", msg)
+		}
 	}
 
 	/**
@@ -44,7 +59,8 @@ class UserController extends Controller {
 		if (result && result.password === reqBody.password) {
 			ctx.body = ctx.helper.packData("success", "", result)
 		} else {
-			ctx.body = ctx.helper.packData("fail", "用户名或密码错误")
+			const msg = "用户名或密码错误"
+			ctx.body = ctx.helper.packData("fail", msg)
 		}
 	}
 
@@ -59,7 +75,8 @@ class UserController extends Controller {
 		const reqBody = ctx.request.body
 		const isExist = await service.user.isUserExist(reqBody.user_id)
 		if (isExist) {
-			ctx.body = ctx.helper.packData("fail", "用户名已存在")
+			const msg = "用户名已存在"
+			ctx.body = ctx.helper.packData("fail", msg)
 		} else {
 			const result = await service.user.insertNewUser(
 				reqBody.user_id,
@@ -84,7 +101,8 @@ class UserController extends Controller {
 		if (result) {
 			ctx.body = ctx.helper.packData("success", "", result)
 		} else {
-			ctx.body = ctx.helper.packData("fail", "")
+			const msg = "上传失败"
+			ctx.body = ctx.helper.packData("fail", msg)
 		}
 	}
 }

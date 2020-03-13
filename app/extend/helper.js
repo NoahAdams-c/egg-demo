@@ -3,9 +3,9 @@
  * @Author: chenchen
  * @Date: 2019-10-28 12:43:52
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-09 16:19:58
+ * @LastEditTime: 2020-03-14 02:25:00
  */
-const { logger } = require("cc-vue-util/common")
+const { logger, errorLog } = require("cc-vue-util/common")
 
 module.exports = {
 	/**
@@ -33,5 +33,15 @@ module.exports = {
 			data
 		}
 	},
-	logger
+	/**
+	 * 自定义错误
+	 * @param {String} msg 错误信息
+	 */
+	myError(msg) {
+		const err = new Error(msg)
+		err.status = 400
+		return err
+	},
+	logger,
+	errorLog
 }

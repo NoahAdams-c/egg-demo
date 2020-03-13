@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-29 16:48:28
  * @LastEditors: chenchen
- * @LastEditTime: 2019-11-11 15:51:00
+ * @LastEditTime: 2020-03-14 01:32:03
  */
 
 // mysql插件
@@ -28,12 +28,6 @@ exports.sequelize = {
 exports.io = {
 	enable: true,
 	package: "egg-socket.io"
-}
-
-// 参数验证插件
-exports.validate = {
-	enable: true,
-	package: "egg-validate"
 }
 
 exports.cors = {
