@@ -3,7 +3,7 @@
  * @Author: chenchen
  * @Date: 2019-08-29 14:59:58
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-14 01:42:56
+ * @LastEditTime: 2020-08-08 17:07:55
  */
 exports.keys = "chenchen9694"
 
@@ -28,4 +28,4 @@ exports.security = {
 	}
 }
 
-exports.middleware = ["errorHandle"]
+exports.middleware = ["contextHandler", "errorHandle"]
