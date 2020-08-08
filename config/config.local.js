@@ -3,8 +3,9 @@
  * @Author: chenchen
  * @Date: 2019-08-29 16:55:31
  * @LastEditors: chenchen
- * @LastEditTime: 2020-03-05 21:12:20
+ * @LastEditTime: 2020-08-08 16:13:15
  */
+const database = require("../database/config.json")
 exports.keys = "chenchen9694"
 
 exports.cluster = {
@@ -29,14 +30,7 @@ exports.security = {
 }
 
 // sequelize配置
-exports.sequelize = {
-	dialect: "mysql",
-	host: "127.0.0.1",
-	port: 3306,
-	database: "D_TEST",
-	username: "root",
-	password: "960904"
-}
+exports.sequelize = database.development
 
 // redis配置
 exports.redis = {
@@ -50,6 +44,10 @@ exports.redis = {
 
 // socketio配置
 exports.io = {
+	init: {
+		pingTimeout: 10000,
+		pingInterval: 500
+	},
 	redis: {
 		host: "127.0.0.1",
 		port: 6379,
